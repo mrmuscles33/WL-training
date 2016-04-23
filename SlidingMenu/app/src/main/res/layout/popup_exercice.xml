@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".NouvelleSeanceActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/popupSerie"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="33"
+
+                android:hint="Séries"
+                android:gravity="center"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/popupRep"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="33"
+
+                android:hint="Rép."
+                android:gravity="center"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/popupPourc"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="33"
+
+                android:hint="%"
+                android:gravity="center"
+                android:inputType="number" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/popupOK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="OK" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<group android:checkableBehavior="single">
+        <item android:id="@+id/nav_camara" android:icon="@android:drawable/ic_menu_camera"
+            android:title="Import" />
+        <item android:id="@+id/nav_gallery" android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item android:id="@+id/nav_slideshow" android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="Slideshow" />
+        <item android:id="@+id/nav_manage" android:icon="@android:drawable/ic_menu_manage"
+            android:title="Tools" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/nav_share" android:icon="@android:drawable/ic_menu_share"
+                android:title="Share" />
+            <item android:id="@+id/nav_send" android:icon="@android:drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>!-->
+    <item
+        android:id="@+id/nav_accueil"
+        android:icon="@drawable/ic_home"
+        android:title="Accueil" />
+
+    <item android:title="Entraînements">
+        <menu>
+            <item
+                android:id="@+id/nav_seance"
+                android:icon="@drawable/ic_seance"
+                android:title="Séances" />
+            <item
+                android:id="@+id/nav_rediger_seance"
+                android:icon="@drawable/ic_rediger"
+                android:title="Rédiger une séance" />
+            <item
+                android:id="@+id/nav_abonnement"
+                android:icon="@drawable/ic_poignee"
+                android:title="Abonnement" />
+        </menu>
+    </item>
+
+    <item android:title="Compétitions">
+        <menu>
+            <item
+                android:id="@+id/nav_competition"
+                android:icon="@drawable/ic_compet"
+                android:title="Compétitions" />
+            <item
+                android:id="@+id/nav_records"
+                android:icon="@drawable/ic_record"
+                android:title="Records" />
+            <item
+                android:id="@+id/nav_minimas"
+                android:icon="@drawable/ic_minimas"
+                android:title="Minimas" />
+        </menu>
+    </item>
+
+    <item android:title="Informations">
+        <menu>
+            <item
+                android:id="@+id/nav_exo"
+                android:icon="@drawable/ic_livre"
+                android:title="Exercices" />
+            <item
+                android:id="@+id/nav_iwf"
+                android:icon="@drawable/ic_iwf"
+                android:title="Total IWF" />
+            <item
+                android:id="@+id/nav_chargement"
+                android:icon="@drawable/ic_chargement"
+                android:title="Chargement" />
+        </menu>
+    </item>
+
+    <item android:title="Compte">
+        <menu>
+            <item
+                android:id="@+id/nav_compte"
+                android:icon="@drawable/ic_profile"
+                android:title="Mon Compte" />
+            <item
+                android:id="@+id/nav_connexion"
+                android:icon="@drawable/ic_home"
+                android:title="Connexion/Déconnexion" />
+        </menu>
+    </item>
+
+    <item android:title="Autre">
+        <menu>
+
+            <item
+                android:id="@+id/nav_aide"
+                android:icon="@drawable/ic_help"
+                android:title="Aide" />
+            <item
+                android:id="@+id/nav_credit"
+                android:icon="@drawable/ic_credit"
+                android:title="Crédits" />
+        </menu>
+    </item>
+</menu>

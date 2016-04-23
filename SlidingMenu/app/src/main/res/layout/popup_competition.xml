@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/competLibelle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Libellé" />
+
+    <EditText
+        android:id="@+id/competLieu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lieu" />
+
+    <DatePicker
+        android:id="@+id/competDate"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner"></DatePicker>
+
+    <EditText
+        android:id="@+id/competPoids"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Poids de corps"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Arraché"
+        android:textColor="@android:color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/competA1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:gravity="center"
+            android:hint="Arraché 1"
+            android:inputType="numberSigned" />
+
+        <EditText
+            android:id="@+id/competA2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:gravity="center"
+            android:hint="Arraché 2"
+            android:inputType="numberSigned" />
+
+        <EditText
+            android:id="@+id/competA3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:gravity="center"
+            android:hint="Arraché 3"
+            android:inputType="numberSigned" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Epaulé jeté"
+        android:textColor="@android:color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/competEpj1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:gravity="center"
+            android:hint="EPJ 1"
+            android:inputType="numberSigned" />
+
+        <EditText
+            android:id="@+id/competEpj2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:gravity="center"
+            android:hint="EPJ 2"
+            android:inputType="numberSigned" />
+
+        <EditText
+            android:id="@+id/competEpj3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:gravity="center"
+            android:hint="EPJ 3"
+            android:inputType="numberSigned" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/competButtonSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enregistrer" />
+
+</LinearLayout>

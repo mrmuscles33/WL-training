@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/popupPourcentageMax"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Maximum"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/popupPourcentagePourc"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Pourcentage"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/popupPourcentageRes"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Résultat"
+        android:textSize="18sp"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/popupPourcentageCalc"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Calculer" />
+
+</LinearLayout>

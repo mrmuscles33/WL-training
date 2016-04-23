@@ -1,0 +1,180 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.alan.wltraining.Activity.NouvelleSeanceActivity">
+    <item
+        android:id="@+id/arrache"
+        android:title="Arraché">
+        <menu>
+            <item
+                android:id="@+id/arracheChute"
+                android:title="Chute d'arraché" />
+            <item
+                android:id="@+id/Combinearrache"
+                android:title="Combiné d'arraché" />
+            <item
+                android:id="@+id/arracheDebout"
+                android:title="Arraché debout" />
+            <item
+                android:id="@+id/arracheFlexion"
+                android:title="Arraché flexion" />
+            <item
+                android:id="@+id/arracheForce"
+                android:title="Arraché force" />
+            <item
+                android:id="@+id/Gammearrache"
+                android:title="Gamme arraché" />
+            <item
+                android:id="@+id/passageArrache"
+                android:title="Passage d'arraché" />
+            <item
+                android:id="@+id/arrachePlot"
+                android:title="Arraché plot" />
+            <item
+                android:id="@+id/arrachePuissance"
+                android:title="Arraché puissance" />
+            <item
+                android:id="@+id/squatArrache"
+                android:title="Squat d'arraché" />
+            <item
+                android:id="@+id/arracheSuspension"
+                android:title="Arraché suspension" />
+            <item
+                android:id="@+id/tba"
+                android:title="TBA" />
+            <item
+                android:id="@+id/arracheTechnique"
+                android:title="Arraché technique" />
+            <item
+                android:id="@+id/tirageArrache"
+                android:title="Tirage d'arraché" />
+        </menu>
+
+    </item>
+    <item
+        android:id="@+id/epj"
+        android:title="EPJ">
+        <menu>
+            <item android:id="@+id/epauleJete" android:title="EPJ">
+                <menu>
+                    <item android:title="Combiné epj" />
+                    <item android:title="Epj debout" />
+                    <item android:title="Epj flexion" />
+                    <item android:title="Epj force" />
+                    <item android:title="Gamme epj" />
+                    <item android:title="Epj plot" />
+                    <item android:title="Epj puissance" />
+                    <item android:title="Epj suspension" />
+                    <item android:title="Epj technique" />
+                </menu>
+            </item>
+            <item android:id="@+id/epaule" android:title="Epaulé">
+                <menu>
+                    <item android:title="Combiné épaulé" />
+                    <item android:title="Epaulé debout" />
+                    <item android:title="Epaulé flexion" />
+                    <item android:title="Epaulé force" />
+                    <item android:title="Passage épaulé" />
+                    <item android:title="Epaulé plot" />
+                    <item android:title="Epaulé puissance" />
+                    <item android:title="Epaulé suspension" />
+                    <item android:title="TBE" />
+                    <item android:title="Epaulé technique" />
+                    <item android:title="Tirage épaulé" />
+                </menu>
+            </item>
+            <item android:id="@+id/jete" android:title="Jeté">
+                <menu>
+                    <item android:title="Appel jeté" />
+                    <item android:title="Combiné jeté" />
+                    <item android:title="Jeté debout" />
+                    <item android:title="Développé" />
+                    <item android:title="Jeté fente" />
+                    <item android:title="Jeté force" />
+                    <item android:title="Passage jeté" />
+                    <item android:title="Jeté puissance" />
+                </menu>
+            </item>
+
+        </menu>
+
+    </item>
+    <item
+        android:id="@+id/muscul"
+        android:title="Muscul">
+        <menu>
+            <item
+                android:id="@+id/bras"
+                android:title="Bras">
+                <menu>
+                    <item android:title="Biceps" />
+                    <item android:title="Triceps" />
+                    <item android:title="Dips" />
+                    <item android:title="Avant-bras" />
+                    <item android:title="Tractions" />
+                </menu>
+            </item>
+            <item
+                android:id="@+id/cuisses"
+                android:title="Cuisses">
+                <menu>
+                    <item android:title="Squat devant" />
+                    <item android:title="Squat nuque" />
+                    <item android:title="Presse" />
+                    <item android:title="Saut/Détente" />
+                </menu>
+            </item>
+            <item
+                android:id="@+id/dorsaux"
+                android:title="Dorsaux">
+                <menu>
+                    <item android:title="Rowing buste penché" />
+                    <item android:title="Tirage nuque" />
+                    <item android:title="Tirage horizontal" />
+                    <item android:title="Tirage banc" />
+                    <item android:title="Fixateurs" />
+                </menu>
+            </item>
+            <item
+                android:id="@+id/epaules"
+                android:title="Epaules">
+                <menu>
+                    <item android:title="Elevations latérales" />
+                    <item android:title="Rowing" />
+                    <item android:title="Développé" />
+                    <item android:title="Pull-over" />
+                    <item android:title="Traction" />
+                </menu>
+            </item>
+            <item
+                android:id="@+id/lombaires"
+                android:title="Lombaires">
+                <menu>
+                    <item android:title="Lombaires plint" />
+                    <item android:title="Lombaires barre" />
+                    <item android:title="Lombaires statique" />
+                </menu>
+            </item>
+            <item
+                android:id="@+id/mollet"
+                android:title="Mollet">
+                <menu>
+                    <item android:title="Pointes" />
+                </menu>
+            </item>
+            <item
+                android:id="@+id/pectoraux"
+                android:title="Pectoraux">
+                <menu>
+                    <item android:title="Développé couché" />
+                    <item android:title="Développé incliné" />
+                    <item android:title="Pompes" />
+                </menu>
+            </item>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/autreExo"
+        android:title="Autre" />
+
+</menu>

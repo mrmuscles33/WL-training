@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:longClickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="goToSeance"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/listeViewProchaineDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="15/02/2016"
+            android:textColor="#FF282828"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/listeViewProchaineName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-thin"
+            android:paddingLeft="30dp"
+            android:text="by Alan"
+            android:textStyle="bold"
+            android:textColor="#FF282828"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+
+</LinearLayout>

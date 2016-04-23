@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.alan.slidingmenu.Fragment.FragmentCompetitionStats">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/bestArr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Meilleur arraché : 100"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/bestEpj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Meilleur épaulé jeté : 100"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/bestTot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Meilleur total : 100"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/bestIwfFille"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Meilleur total IWF (femme) : 100"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/bestIwfHomme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Meilleur total IWF (homme) : 100"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/PtsMoyenFille"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Points moyen (femme) : 100"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/PtsMoyenHomme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Points moyen (homme) : 100"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/failMoyen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre de barre(s) ratée(s) en moyenne : 100"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/poidsMoyen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Poids de corps moyen : 100"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/poidsLourd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Plus lourd : 100"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/poidsLeger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Plus léger : 100"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

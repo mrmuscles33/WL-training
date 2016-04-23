@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:onClick="deleteCompet"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/listeCompetLibelle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nom de la compet"
+        android:textSize="17dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/listeCompetDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="01/01/2016"
+            android:textSize="15dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/listeCompetLieu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lieu de la compet"
+            android:textSize="15dp"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="Poids de coprs : " />
+
+        <TextView
+            android:id="@+id/listeCompetPoids"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="50,0 kg" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:textSize="15dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/listeCompetA1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:textSize="15dp"
+                android:text="60" />
+
+            <TextView
+                android:id="@+id/listeCompetA2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:padding="7dp"
+                android:text="66" />
+
+            <TextView
+                android:id="@+id/listeCompetA3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:padding="7dp"
+                android:text="70" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/listeCompetEPJ1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:padding="7dp"
+                android:text="90" />
+
+            <TextView
+                android:id="@+id/listeCompetEPJ2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:textSize="15dp"
+                android:text="95" />
+
+            <TextView
+                android:id="@+id/listeCompetEPJ3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:padding="7dp"
+                android:text="100" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
