@@ -1,5 +1,7 @@
 package com.alan.slidingmenu.Activity;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
@@ -21,6 +23,8 @@ import com.alan.slidingmenu.BDD.MinimaBDD;
 import com.alan.slidingmenu.Classe.Seance;
 import com.alan.slidingmenu.Classe.User;
 import com.alan.slidingmenu.Classe.UserPreferences;
+import com.alan.slidingmenu.Popup.PopupConnexion;
+import com.alan.slidingmenu.Popup.PopupInscription;
 import com.alan.slidingmenu.R;
 
 import java.util.ArrayList;
@@ -52,8 +56,26 @@ public class MainActivity extends AppCompatActivity
         UserPreferences pref = new UserPreferences(this);
         User user = pref.readUser();
 
-        setNomHeader(user);
 
+        if (user == User.USER_VIDE) {
+            new AlertDialog.Builder(this)
+                    .setTitle("Inscription")
+                    .setMessage("avantages :\n      - Rédiger des séances." +
+                            "\n      - S'abonner à des entraineurs pour suivre leurs séances")
+                    .setPositiveButton("Inscription", new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int which) {
+                            PopupInscription pop = new PopupInscription(MainActivity.this);
+                            pop.show();
+                        }
+                    })
+                    .setNegativeButton("non", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            return;
+                        }
+                    })
+                    .show();
+        }setNomHeader(user);
         seance = new Seance();
 
         Intent i = getIntent();
