@@ -37,6 +37,7 @@ public class ChargementActivity extends AppCompatActivity
     private Button remove;
     private Context context;
     private int poid  = 25;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -82,8 +83,9 @@ public class ChargementActivity extends AppCompatActivity
         calcul.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                int poidsBarre = Integer.parseInt(poids.getText().toString());
-                calculPoid(poidsBarre);
+                //int poidsBarre = Integer.parseInt(poids.getText().toString());
+                poid = Integer.parseInt(poids.getText().toString());
+                calculPoid(poid);
             }
         });
         add.setOnClickListener(new View.OnClickListener() {
