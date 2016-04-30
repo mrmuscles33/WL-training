@@ -2,16 +2,20 @@ package com.alan.slidingmenu.BDD;
 
 import android.os.Parcel;
 import android.os.Parcelable;
+import android.util.Log;
 
 /**
  * Created by ifigm on 10/03/2016.
  */
 public class Minima implements Parcelable {
+
     private String categorie;
     private String niveaux;
     private int poids;
     private int sexe;
     private String categoriePoids;
+
+
 
     public Minima(String categorie, String niveaux, int poids,int sexe, String categoriePoids) {
         this.categorie = categorie;
@@ -20,7 +24,19 @@ public class Minima implements Parcelable {
         this.sexe =  sexe;
         this.categoriePoids = categoriePoids;
 
+
     }
+    public Minima(String categorie, int poids,int sexe, String categoriePoids,String master) {
+        this.categorie = categorie;
+        this.niveaux = master;
+        this.poids = poids;
+        this.sexe =  sexe;
+        this.categoriePoids = categoriePoids;
+
+
+    }
+
+
 
     protected Minima(Parcel in) {
         categorie = in.readString();
@@ -28,6 +44,7 @@ public class Minima implements Parcelable {
         poids = in.readInt();
         sexe = in.readByte();
         categoriePoids = in.readString();
+
     }
 
     public static final Creator<Minima> CREATOR = new Creator<Minima>() {
@@ -83,6 +100,7 @@ public class Minima implements Parcelable {
         this.sexe = sexe;
     }
 
+
     @Override
     public int describeContents() {
         return 0;
@@ -95,5 +113,17 @@ public class Minima implements Parcelable {
         dest.writeInt(poids);
         dest.writeInt(sexe);
         dest.writeString(categoriePoids);
+
+    }
+
+    @Override
+    public String toString() {
+        return "Minima{" +
+                "categorie='" + categorie + '\'' +
+                ", niveaux='" + niveaux + '\'' +
+                ", poids=" + poids +
+                ", sexe=" + sexe +
+                ", categoriePoids='" + categoriePoids + '\'' +
+                '}';
     }
 }
