@@ -27,33 +27,47 @@
             android:padding="10dp">
 
 
-            <TextView
-                android:id="@+id/textViewSexeMinima"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Sexe : "
-                android:textAppearance="?android:attr/textAppearanceMedium" />
-
-            <RadioGroup
-                android:id="@+id/radioGroupeCheck"
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <RadioButton
-                    android:id="@+id/radioSexeHomme"
+                <TextView
+                    android:id="@+id/textViewSexeMinima"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:checked="false"
-                    android:text="Homme" />
+                    android:text="Sexe : "
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </LinearLayout>
 
-                <RadioButton
-                    android:id="@+id/radioSexeMinima"
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioGroup
+                    android:id="@+id/radioGroupeCheck"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:checked="false"
-                    android:text="Femme" />
-            </RadioGroup>
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radioSexeHomme"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="Homme" />
+
+                    <RadioButton
+                        android:id="@+id/radioSexeMinima"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="Femme" />
+                </RadioGroup>
+
+
+
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
