@@ -118,8 +118,8 @@ public class SeanceActivity extends AppCompatActivity
 
                 int X = (int) (metrics.widthPixels * 0.9) / exo.getSerie();
 
-                if (X > 200)
-                    X = (int) (metrics.widthPixels * 0.9) / 5;
+                if (X > (int) ((metrics.widthPixels * 0.9) / 5))
+                    X = (int) ((metrics.widthPixels * 0.9) / 5);
 
                 Bouton tb = new Bouton(this, X, X, seance.getLesExos().indexOf(exo), i, seance);
 

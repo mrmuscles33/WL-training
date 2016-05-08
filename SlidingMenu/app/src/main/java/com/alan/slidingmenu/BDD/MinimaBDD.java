@@ -29,6 +29,7 @@ public class MinimaBDD {
     private static final int MINIMA_SEXE_NUM = 3;
     private static final int MINIMA_CATEGORIE_POIDS_NUM = 4;
 
+
     private SQLiteDatabase bdd;
 
     private MinimaHandler maBaseSQLite;
@@ -66,6 +67,7 @@ public class MinimaBDD {
         values.put(MINIMA_POIDS, min.getPoids());
         values.put(MINIMA_CATEGORIE_POIDS, min.getCategoriePoids());
         values.put(MINIMA_SEXE, min.getSexe());
+
 
         //on insère l'objet dans la BDD via le ContentValue
         return bdd.insert(TABLE_MINIMA, null, values);
@@ -211,4 +213,5 @@ public class MinimaBDD {
 
         }
     }
+
 }

@@ -9,6 +9,7 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.DisplayMetrics;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -32,8 +33,10 @@ public class ChargementActivity extends AppCompatActivity
     private EditText poids;
     private RadioGroup groupe;
     private LinearLayout image;
-
+    private Button add;
+    private Button remove;
     private Context context;
+    private int poid  = 25;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,73 +65,53 @@ public class ChargementActivity extends AppCompatActivity
         image = (LinearLayout) findViewById(R.id.imageChargement);
         poids = (EditText) findViewById(R.id.poidsChargement);
         groupe = (RadioGroup) findViewById(R.id.radioGroupChargement);
-        //check = (RadioButton) findViewById(groupe.getCheckedRadioButtonId());
+        add = (Button) findViewById(R.id.button_add_kilo);
+        remove = (Button) findViewById(R.id.button_remove_kilo);
 
-        Button calcul = (Button) findViewById(R.id.chargementButton);
+        groupe.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(RadioGroup group, int checkedId) {
+                if(checkedId == R.id.chargementHomme)
+                    poid += 5;
+                else
+                    poid -= 5;
+                poids.setText(poid+"");
+
+            }
+        });
+        final Button calcul = (Button) findViewById(R.id.chargementButton);
         calcul.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                int barre = 0;
-                if (R.id.chargementHomme == groupe.getCheckedRadioButtonId())
-                    barre = 20;
-                else
-                    barre = 15;
-
-                int poidsBarre = Integer.parseInt(poids.getText().toString());
-
-                if (poidsBarre >= barre + 5) {
-
-                    double[] lesPoids = {25, 20, 15, 10, 5, 2.5, 2, 1.5, 1, 0.5};
-                    int[] qte = new int[10];
-
-                    for (int i = 0; i < 10; i++)
-                        qte[i] = 0;
-
-                    //Poids - barre - bagues
-                    poidsBarre -= (barre + 5);
-
-                    for (int i = 0; i < 10; i++) {
-                        qte[i] = (int) (poidsBarre / (2 * lesPoids[i]));
-                        poidsBarre -= 2 * qte[i] * lesPoids[i];
-                    }
-
-                    //AFFICHAGE
-                    int[] lesImg = {R.drawable.poids25, R.drawable.poids20, R.drawable.poids15, R.drawable.poids10, R.drawable.poids5, R.drawable.poids2v5, R.drawable.poids2, R.drawable.poids1v5, R.drawable.poids1, R.drawable.poids0v5};
-
-                    image.removeAllViews();
-
-                    int nbPoids = 1;
-                    for (int i : qte)
-                        nbPoids += i;
-
-                    for (int i = 0; i < 10; i++) {
-                        for (int j = 0; j < qte[i]; j++) {
-                            ImageView img = new ImageView(context);
-                            img.setImageResource(lesImg[i]);
-
-                            DisplayMetrics metrics = new DisplayMetrics();
-                            getWindowManager().getDefaultDisplay().getMetrics(metrics);
-
-                            int height = (int) (metrics.heightPixels * 1.5);
-
-                            ViewGroup.LayoutParams params = new ViewGroup.LayoutParams(image.getWidth() / nbPoids, height);
-                            img.setLayoutParams(params);
-
-                            image.addView(img);
-                        }
-                    }
-
-                    ImageView img = new ImageView(context);
-                    img.setImageResource(R.drawable.bague);
-
-                    ViewGroup.LayoutParams params = new ViewGroup.LayoutParams(image.getWidth() / nbPoids, image.getHeight());
-                    img.setLayoutParams(params);
-
-                    image.addView(img);
-
-                } else {
-                    image.removeAllViews();
+                //int poidsBarre = Integer.parseInt(poids.getText().toString());
+                poid = Integer.parseInt(poids.getText().toString());
+                calculPoid(poid);
+            }
+        });
+        add.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ++poid;
+                poids.setText(poid+"");
+                calculPoid(poid);
+            }
+        });
+        /*
+        enleve du poids jusqu'a atteindre le minimum
+        qui est l'image avec le poids le plus faible
+         */
+        remove.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(R.id.chargementHomme == groupe.getCheckedRadioButtonId() ){
+                    if(poid >25)--poid;
+                }else {
+                    if(poid>20)--poid;
                 }
+
+
+                poids.setText(poid+"");
+                calculPoid(poid);
             }
         });
     }
@@ -186,6 +169,75 @@ public class ChargementActivity extends AppCompatActivity
             name.setText(user.getPseudo() + " (" + user.getEmail() + ")");
         else {
             name.setText("Non connecté");
+        }
+    }
+
+
+    /**
+     * calcul du poids qu'il faut mettre sur une barre et l'affiche à l'écran
+     * @param poidsBarre
+     */
+    public void calculPoid(int poidsBarre){
+        int barre = 0;
+
+        if (R.id.chargementHomme == groupe.getCheckedRadioButtonId())
+            barre = 20;
+        else
+            barre = 15;
+
+        if (poidsBarre >= barre + 5) {
+
+            double[] lesPoids = {25, 20, 15, 10, 5, 2.5, 2, 1.5, 1, 0.5};
+            int[] qte = new int[10];
+
+            for (int i = 0; i < 10; i++)
+                qte[i] = 0;
+
+            //Poids - barre - bagues
+            poidsBarre -= (barre + 5);
+
+            for (int i = 0; i < 10; i++) {
+                qte[i] = (int) (poidsBarre / (2 * lesPoids[i]));
+                poidsBarre -= 2 * qte[i] * lesPoids[i];
+            }
+
+
+            //AFFICHAGE
+            int[] lesImg = {R.drawable.poids25, R.drawable.poids20, R.drawable.poids15, R.drawable.poids10, R.drawable.poids5, R.drawable.poids2v5, R.drawable.poids2, R.drawable.poids1v5, R.drawable.poids1, R.drawable.poids0v5};
+
+            image.removeAllViews();
+
+            int nbPoids = 1;
+            for (int i : qte)
+                nbPoids += i;
+
+            for (int i = 0; i < 10; i++) {
+                for (int j = 0; j < qte[i]; j++) {
+                    ImageView img = new ImageView(context);
+                    img.setImageResource(lesImg[i]);
+
+                    DisplayMetrics metrics = new DisplayMetrics();
+                    getWindowManager().getDefaultDisplay().getMetrics(metrics);
+
+                    int height = (int) (metrics.heightPixels * 1.5);
+
+                    ViewGroup.LayoutParams params = new ViewGroup.LayoutParams(image.getWidth() / nbPoids, height);
+                    img.setLayoutParams(params);
+
+                    image.addView(img);
+                }
+            }
+
+            ImageView img = new ImageView(context);
+            img.setImageResource(R.drawable.bague);
+
+            ViewGroup.LayoutParams params = new ViewGroup.LayoutParams(image.getWidth() / nbPoids, image.getHeight());
+            img.setLayoutParams(params);
+
+            image.addView(img);
+
+        } else {
+            image.removeAllViews();
         }
     }
 }

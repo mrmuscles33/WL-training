@@ -8,10 +8,12 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.CheckBox;
 import android.widget.LinearLayout;
 import android.widget.RadioGroup;
 import android.widget.Spinner;
@@ -25,6 +27,7 @@ import com.alan.slidingmenu.R;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * Created by ifigm on 23/03/2016.
@@ -42,6 +45,9 @@ public class MinimaActivity extends AppCompatActivity
     private List<Minima> minimas;
     private Spinner spinnerCategorie;
     private Spinner spinnerCategoriePoids;
+    private CheckBox national;
+    private CheckBox europe;
+    private CheckBox monde;
     private int sexe;
     private List<Integer> poids;
     private List<TextView> textViewListPoids;
@@ -77,6 +83,7 @@ public class MinimaActivity extends AppCompatActivity
         textViewListPoids.add((TextView) findViewById(R.id.textViewPoids7));
         textViewListPoids.add((TextView) findViewById(R.id.textViewPoids8));
         textViewListPoids.add((TextView) findViewById(R.id.textViewPoids9));
+
         parent = (LinearLayout) findViewById(R.id.linearMinima);
         spinnerCategorie = (Spinner) findViewById(R.id.spinner);
         spinnerCategoriePoids = (Spinner) findViewById(R.id.spinner2);
@@ -86,6 +93,7 @@ public class MinimaActivity extends AppCompatActivity
         bd = new MinimaBDD(getApplicationContext());
         bd.open();
         minimas = bd.getMinima();
+
         bd.close();
 
         groupe.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
@@ -98,7 +106,10 @@ public class MinimaActivity extends AppCompatActivity
                 } else {
                     sexe = 1;
                 }
-                categories = bd.getCategorie(sexe);
+
+                    categories = bd.getCategorie(sexe);
+
+
                 bd.close();
 
                 ArrayAdapter<String> dataAdapterR = new ArrayAdapter<>(pContext, android.R.layout.simple_spinner_item, categories);
@@ -123,17 +134,6 @@ public class MinimaActivity extends AppCompatActivity
                                 int i = 0;
                                 poids = bd.getPoids(sexe, categorie, categoriePoids);
                                 for (TextView t : textViewListPoids) t.setText("");
-
-                                /*for (Integer e : poids) {
-                                    for (Minima minima : minimas) {
-                                        if (e == minima.getPoids() && i <= poids.size()) {
-                                            textViewListPoids.get(i).setText(minima.getNiveaux() + " : " + e.toString() + " Kg");
-
-                                        }
-
-                                    }
-                                    i++;
-                                }*/
 
                                 minimas = bd.getMinima(sexe,categorie,categoriePoids);
 
