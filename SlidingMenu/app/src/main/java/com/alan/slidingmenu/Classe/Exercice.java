@@ -14,6 +14,7 @@ public class Exercice implements Parcelable {
     private int rep;
     private int pourc;
     private int[] lesSeries;
+    private String[] lesCommentaires;
     private int id;
 
     public Exercice() {
@@ -33,9 +34,13 @@ public class Exercice implements Parcelable {
         pourc = source.readInt();
 
         lesSeries = new int[serie];
+        lesCommentaires = new String[serie];
 
         for (int i = 0; i < serie; i++)
             lesSeries[i] = source.readInt();
+
+        for (int i = 0; i < serie; i++)
+            lesCommentaires[i] = source.readString();
     }
 
     public String getNom() {
@@ -54,9 +59,12 @@ public class Exercice implements Parcelable {
         this.serie = serie;
 
         lesSeries = new int[serie];
+        lesCommentaires = new String[serie];
 
-        for (int i = 0; i < serie; i++)
+        for (int i = 0; i < serie; i++) {
             lesSeries[i] = 0;
+            lesCommentaires[i] = "";
+        }
     }
 
     public int getRep() {
@@ -91,6 +99,14 @@ public class Exercice implements Parcelable {
         this.id = id;
     }
 
+    public String[] getLesCommentaires() {
+        return lesCommentaires;
+    }
+
+    public void setLesCommentaires(String[] lesCommentaires) {
+        this.lesCommentaires = lesCommentaires;
+    }
+
     @Override
     public int describeContents() {
         return 0;
@@ -106,6 +122,9 @@ public class Exercice implements Parcelable {
 
         for (int i = 0; i < serie; i++)
             dest.writeInt(lesSeries[i]);
+
+        for (int i = 0; i < serie; i++)
+            dest.writeString(lesCommentaires[i]);
     }
 
     public static final Parcelable.Creator<Exercice> CREATOR = new Parcelable.Creator<Exercice>() {

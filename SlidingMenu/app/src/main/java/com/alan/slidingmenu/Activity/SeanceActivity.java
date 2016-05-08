@@ -37,7 +37,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 public class SeanceActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener,NomHeader {
+        implements NavigationView.OnNavigationItemSelectedListener, NomHeader {
 
     private Chronometer chronometer;
     private static final int ACTION = 0;
@@ -135,7 +135,7 @@ public class SeanceActivity extends AppCompatActivity
             conteneurSeance.addView(v);
 
 
-            System.out.println("Exercice : "+exo.getId()+"-"+exo.getNom()+"-"+exo.getSerie()+"-"+exo.getRep()+"-"+exo.getPourc());
+            System.out.println("Exercice : " + exo.getId() + "-" + exo.getNom() + "-" + exo.getSerie() + "-" + exo.getRep() + "-" + exo.getPourc());
         }
 
         chronometer = (Chronometer) findViewById(R.id.chronometer);
@@ -188,12 +188,13 @@ public class SeanceActivity extends AppCompatActivity
                     for (Exercice e : seance.getLesExos()) {
                         JSONArray exoJson = new JSONArray();
 
-                        for (int i : e.getLesSeries()) {
+                        for (int i = 0; i < e.getSerie(); i++) {
                             JSONObject serie = new JSONObject();
 
-                            serie.put("charge", i);
+                            serie.put("charge", e.getLesSeries()[i]);
                             serie.put("idExercice", e.getId());
                             serie.put("idUser", u.getIdUser());
+                            serie.put("commentaire", e.getLesCommentaires()[i]);
 
                             exoJson.put(serie);
                         }
@@ -253,7 +254,7 @@ public class SeanceActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        com.alan.slidingmenu.Activity.Menu.goTo(this,id);
+        com.alan.slidingmenu.Activity.Menu.goTo(this, id);
         finish();
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -262,21 +263,21 @@ public class SeanceActivity extends AppCompatActivity
     }
 
     @Override
-    public void onPause(){
+    public void onPause() {
         super.onPause();
         SeancePreferences prefSeance = new SeancePreferences(this);
         prefSeance.writeSeance(seance);
     }
 
     @Override
-    public void onStop(){
+    public void onStop() {
         super.onStop();
         SeancePreferences prefSeance = new SeancePreferences(this);
         prefSeance.writeSeance(seance);
     }
 
     @Override
-    public void onDestroy(){
+    public void onDestroy() {
         super.onDestroy();
         SeancePreferences prefSeance = new SeancePreferences(this);
         prefSeance.writeSeance(seance);

@@ -1,4 +1,4 @@
-package com.alan.slidingmenu.Activity;
+package com.alan.slidingmenu.Popup;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -9,9 +9,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.alan.slidingmenu.Activity.CompteActivity;
 import com.alan.slidingmenu.Classe.User;
 import com.alan.slidingmenu.Classe.UserPreferences;
-import com.alan.slidingmenu.Popup.PopupConnexion;
 import com.alan.slidingmenu.R;
 import com.alan.slidingmenu.Serveur.UrlHTTPConnection;
 
