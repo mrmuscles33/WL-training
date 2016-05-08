@@ -242,14 +242,21 @@ public class SeanceTabhost extends AppCompatActivity
                     e.setPourc(o.getInt("Charge"));
 
                     int[] lesSeries = new int[e.getSerie()];
+                    String[] lesCommentaires = new String[e.getSerie()];
 
                     JSONArray arraySeries = o.getJSONArray("lesSeries");
+                    JSONArray arrayCommentaires = o.getJSONArray("lesCommentaires");
 
                     for (int j = 0; j < arraySeries.length(); j++) {
                         lesSeries[j] = arraySeries.getInt(j);
                     }
 
+                    for (int j = 0; j < arrayCommentaires.length(); j++) {
+                        lesCommentaires[j] = arrayCommentaires.getString(j);
+                    }
+
                     e.setLesSeries(lesSeries);
+                    e.setLesCommentaires(lesCommentaires);
 
                     seance.getLesExos().add(e);
                 }

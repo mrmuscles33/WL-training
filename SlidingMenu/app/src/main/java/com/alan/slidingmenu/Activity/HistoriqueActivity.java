@@ -93,6 +93,18 @@ public class HistoriqueActivity extends AppCompatActivity
 
             conteneurSeance.addView(lesCharges);
 
+            for(String comm : exo.getLesCommentaires()){
+                if(!(comm.equals("null") || comm.equals(""))){
+                    TextView commentaire = new TextView(this);
+                    commentaire.setTextColor(Color.rgb(40, 40, 40));
+                    commentaire.setTextSize(18);
+                    commentaire.setPadding(0, 10, 0, 10);
+                    commentaire.setText("\t - "+comm);
+
+                    conteneurSeance.addView(commentaire);
+                }
+            }
+
             View v = new View(this);
             v.setMinimumHeight(4);
             v.setBackgroundColor(Color.rgb(40, 40, 40));

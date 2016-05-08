@@ -18,6 +18,7 @@ import android.widget.TextView;
 import com.alan.slidingmenu.Classe.MyListAdapter;
 import com.alan.slidingmenu.Classe.User;
 import com.alan.slidingmenu.Classe.UserPreferences;
+import com.alan.slidingmenu.Popup.PopupDeleteCompte;
 import com.alan.slidingmenu.Popup.PopupEmail;
 import com.alan.slidingmenu.Popup.PopupPassword;
 import com.alan.slidingmenu.R;

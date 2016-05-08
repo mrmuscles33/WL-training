@@ -944,237 +944,238 @@ public class MainActivity extends AppCompatActivity
                 lesMinimas.add(new Minima("Sénior", "Olympique", 375, 1, "+105 kg"));
 
                 //Minima master homme
-                lesMinimas.add(new Minima("M35", 155, 1, "-56 kg", "Monde"));
-                lesMinimas.add(new Minima("M35",137,1,"-56 kg","Europe"));
-                lesMinimas.add(new Minima("M35", 127, 1, "-56 kg", "France"));
 
-                lesMinimas.add(new Minima("M35",172,1,"-62 kg","Monde"));
-                lesMinimas.add(new Minima("M35",152,1,"-62 kg","Europe"));
-                lesMinimas.add(new Minima("M35",142,1,"-62 kg","France"));
+                lesMinimas.add(new Minima("VM35", 155, 1, "-56 kg", "Monde"));
+                lesMinimas.add(new Minima("VM35",137,1,"-56 kg","Europe"));
+                lesMinimas.add(new Minima("VM35", 127, 1, "-56 kg", "France"));
 
-                lesMinimas.add(new Minima("M35",187,1,"-69 kg","Monde"));
-                lesMinimas.add(new Minima("M35",167,1,"-69 kg","Europe"));
-                lesMinimas.add(new Minima("M35",157,1,"-69 kg","France"));
+                lesMinimas.add(new Minima("VM35",172,1,"-62 kg","Monde"));
+                lesMinimas.add(new Minima("VM35",152,1,"-62 kg","Europe"));
+                lesMinimas.add(new Minima("VM35",142,1,"-62 kg","France"));
 
-                lesMinimas.add(new Minima("M35",202,1,"-77 kg","Monde"));
-                lesMinimas.add(new Minima("M35",182,1,"-77 kg","Europe"));
-                lesMinimas.add(new Minima("M35",172,1,"-77 kg","France"));
+                lesMinimas.add(new Minima("VM35",187,1,"-69 kg","Monde"));
+                lesMinimas.add(new Minima("VM35",167,1,"-69 kg","Europe"));
+                lesMinimas.add(new Minima("VM35",157,1,"-69 kg","France"));
 
-                lesMinimas.add(new Minima("M35",215,1,"-85 kg","Monde"));
-                lesMinimas.add(new Minima("M35",192,1,"-85 kg","Europe"));
-                lesMinimas.add(new Minima("M35",182,1,"-85 kg","France"));
+                lesMinimas.add(new Minima("VM35",202,1,"-77 kg","Monde"));
+                lesMinimas.add(new Minima("VM35",182,1,"-77 kg","Europe"));
+                lesMinimas.add(new Minima("VM35",172,1,"-77 kg","France"));
 
-                lesMinimas.add(new Minima("M35",227,1,"-94 kg","Monde"));
-                lesMinimas.add(new Minima("M35",202,1,"-94 kg","Europe"));
-                lesMinimas.add(new Minima("M35",192,1,"-94 kg","France"));
+                lesMinimas.add(new Minima("VM35",215,1,"-85 kg","Monde"));
+                lesMinimas.add(new Minima("VM35",192,1,"-85 kg","Europe"));
+                lesMinimas.add(new Minima("VM35",182,1,"-85 kg","France"));
 
-                lesMinimas.add(new Minima("M35",237,1,"-105 kg","Monde"));
-                lesMinimas.add(new Minima("M35",210,1,"-105 kg","Europe"));
-                lesMinimas.add(new Minima("M35",200,1,"-105 kg","France"));
+                lesMinimas.add(new Minima("VM35",227,1,"-94 kg","Monde"));
+                lesMinimas.add(new Minima("VM35",202,1,"-94 kg","Europe"));
+                lesMinimas.add(new Minima("VM35",192,1,"-94 kg","France"));
 
-                lesMinimas.add(new Minima("M35",245,1,"+105 kg","Monde"));
-                lesMinimas.add(new Minima("M35",217,1,"+105 kg","Europe"));
-                lesMinimas.add(new Minima("M35",207,1,"+105 kg","France"));
+                lesMinimas.add(new Minima("VM35",237,1,"-105 kg","Monde"));
+                lesMinimas.add(new Minima("VM35",210,1,"-105 kg","Europe"));
+                lesMinimas.add(new Minima("VM35",200,1,"-105 kg","France"));
 
-                lesMinimas.add(new Minima("M40",147,1,"-56 kg","Monde"));
-                lesMinimas.add(new Minima("M40",130,1,"-56 kg","Europe"));
-                lesMinimas.add(new Minima("M40",120,1,"-56 kg","France"));
+                lesMinimas.add(new Minima("VM35",245,1,"+105 kg","Monde"));
+                lesMinimas.add(new Minima("VM35",217,1,"+105 kg","Europe"));
+                lesMinimas.add(new Minima("VM35",207,1,"+105 kg","France"));
 
-                lesMinimas.add(new Minima("M40",162,1,"-62 kg","Monde"));
-                lesMinimas.add(new Minima("M40",145,1,"-62 kg","Europe"));
-                lesMinimas.add(new Minima("M40",135,1,"-62 kg","France"));
+                lesMinimas.add(new Minima("VM40",147,1,"-56 kg","Monde"));
+                lesMinimas.add(new Minima("VM40",130,1,"-56 kg","Europe"));
+                lesMinimas.add(new Minima("VM40",120,1,"-56 kg","France"));
 
-                lesMinimas.add(new Minima("M40",177,1,"-69 kg","Monde"));
-                lesMinimas.add(new Minima("M40",160,1,"-69 kg","Europe"));
-                lesMinimas.add(new Minima("M40",150,1,"-69 kg","France"));
+                lesMinimas.add(new Minima("VM40",162,1,"-62 kg","Monde"));
+                lesMinimas.add(new Minima("VM40",145,1,"-62 kg","Europe"));
+                lesMinimas.add(new Minima("VM40",135,1,"-62 kg","France"));
 
-                lesMinimas.add(new Minima("M40",192,1,"-77 kg","Monde"));
-                lesMinimas.add(new Minima("M40",172,1,"-77 kg","Europe"));
-                lesMinimas.add(new Minima("M40",162,1,"-77 kg","France"));
+                lesMinimas.add(new Minima("VM40",177,1,"-69 kg","Monde"));
+                lesMinimas.add(new Minima("VM40",160,1,"-69 kg","Europe"));
+                lesMinimas.add(new Minima("VM40",150,1,"-69 kg","France"));
 
-                lesMinimas.add(new Minima("M40",205,1,"-85 kg","Monde"));
-                lesMinimas.add(new Minima("M40",182,1,"-85 kg","Europe"));
-                lesMinimas.add(new Minima("M40",172,1,"-85 kg","France"));
+                lesMinimas.add(new Minima("VM40",192,1,"-77 kg","Monde"));
+                lesMinimas.add(new Minima("VM40",172,1,"-77 kg","Europe"));
+                lesMinimas.add(new Minima("VM40",162,1,"-77 kg","France"));
 
-                lesMinimas.add(new Minima("M40",215,1,"-94 kg","Monde"));
-                lesMinimas.add(new Minima("M40",192,1,"-94 kg","Europe"));
-                lesMinimas.add(new Minima("M40",182,1,"-94 kg","France"));
+                lesMinimas.add(new Minima("VM40",205,1,"-85 kg","Monde"));
+                lesMinimas.add(new Minima("VM40",182,1,"-85 kg","Europe"));
+                lesMinimas.add(new Minima("VM40",172,1,"-85 kg","France"));
 
-                lesMinimas.add(new Minima("M40",225,1,"-105 kg","Monde"));
-                lesMinimas.add(new Minima("M40",200,1,"-105 kg","Europe"));
-                lesMinimas.add(new Minima("M40",190,1,"-105 kg","France"));
+                lesMinimas.add(new Minima("VM40",215,1,"-94 kg","Monde"));
+                lesMinimas.add(new Minima("VM40",192,1,"-94 kg","Europe"));
+                lesMinimas.add(new Minima("VM40",182,1,"-94 kg","France"));
 
-                lesMinimas.add(new Minima("M40",232,1,"+105 kg","Monde"));
-                lesMinimas.add(new Minima("M40",207,1,"+105 kg","Europe"));
-                lesMinimas.add(new Minima("M40",197,1,"+105 kg","France"));
+                lesMinimas.add(new Minima("VM40",225,1,"-105 kg","Monde"));
+                lesMinimas.add(new Minima("VM40",200,1,"-105 kg","Europe"));
+                lesMinimas.add(new Minima("VM40",190,1,"-105 kg","France"));
 
-
-
-                lesMinimas.add(new Minima("M45",140,1,"-56 kg","Monde"));
-                lesMinimas.add(new Minima("M45",125,1,"-56 kg","Europe"));
-                lesMinimas.add(new Minima("M45",115,1,"-56 kg","France"));
-
-                lesMinimas.add(new Minima("M45",155,1,"-62 kg","Monde"));
-                lesMinimas.add(new Minima("M45",137,1,"-62 kg","Europe"));
-                lesMinimas.add(new Minima("M45",127,1,"-62 kg","France"));
-
-                lesMinimas.add(new Minima("M45",170,1,"-69 kg","Monde"));
-                lesMinimas.add(new Minima("M45",150,1,"-69 kg","Europe"));
-                lesMinimas.add(new Minima("M45",140,1,"-69 kg","France"));
-
-                lesMinimas.add(new Minima("M45",185,1,"-77 kg","Monde"));
-                lesMinimas.add(new Minima("M45",165,1,"-77 kg","Europe"));
-                lesMinimas.add(new Minima("M45",155,1,"-77 kg","France"));
-
-                lesMinimas.add(new Minima("M45",195,1,"-85 kg","Monde"));
-                lesMinimas.add(new Minima("M45",175,1,"-85 kg","Europe"));
-                lesMinimas.add(new Minima("M45",165,1,"-85 kg","France"));
-
-                lesMinimas.add(new Minima("M45",205,1,"-94 kg","Monde"));
-                lesMinimas.add(new Minima("M45",182,1,"-94 kg","Europe"));
-                lesMinimas.add(new Minima("M45",172,1,"-94 kg","France"));
-
-                lesMinimas.add(new Minima("M45",212,1,"-105 kg","Monde"));
-                lesMinimas.add(new Minima("M45",190,1,"-105 kg","Europe"));
-                lesMinimas.add(new Minima("M45",180,1,"-105 kg","France"));
-
-                lesMinimas.add(new Minima("M45",222,1,"+105 kg","Monde"));
-                lesMinimas.add(new Minima("M45",197,1,"+105 kg","Europe"));
-                lesMinimas.add(new Minima("M45",187,1,"+105 kg","France"));
-
-
-                lesMinimas.add(new Minima("M50",130,1,"-56 kg","Monde"));
-                lesMinimas.add(new Minima("M50",115,1,"-56 kg","Europe"));
-                lesMinimas.add(new Minima("M50",105,1,"-56 kg","France"));
-
-                lesMinimas.add(new Minima("M50",142,1,"-62 kg","Monde"));
-                lesMinimas.add(new Minima("M50",127,1,"-62 kg","Europe"));
-                lesMinimas.add(new Minima("M50",117,1,"-62 kg","France"));
-
-                lesMinimas.add(new Minima("M50",157,1,"-69 kg","Monde"));
-                lesMinimas.add(new Minima("M50",140,1,"-69 kg","Europe"));
-                lesMinimas.add(new Minima("M50",130,1,"-69 kg","France"));
-
-                lesMinimas.add(new Minima("M50",170,1,"-77 kg","Monde"));
-                lesMinimas.add(new Minima("M50",150,1,"-77 kg","Europe"));
-                lesMinimas.add(new Minima("M50",140,1,"-77 kg","France"));
-
-                lesMinimas.add(new Minima("M50",180,1,"-85 kg","Monde"));
-                lesMinimas.add(new Minima("M50",160,1,"-85 kg","Europe"));
-                lesMinimas.add(new Minima("M50",150,1,"-85 kg","France"));
-
-                lesMinimas.add(new Minima("M50",190,1,"-94 kg","Monde"));
-                lesMinimas.add(new Minima("M50",167,1,"-94 kg","Europe"));
-                lesMinimas.add(new Minima("M50",157,1,"-94 kg","France"));
-
-                lesMinimas.add(new Minima("M50",197,1,"-105 kg","Monde"));
-                lesMinimas.add(new Minima("M50",175,1,"-105 kg","Europe"));
-                lesMinimas.add(new Minima("M50",165,1,"-105 kg","France"));
-
-                lesMinimas.add(new Minima("M50",205,1,"+105 kg","Monde"));
-                lesMinimas.add(new Minima("M50",182,1,"+105 kg","Europe"));
-                lesMinimas.add(new Minima("M50",172,1,"+105 kg","France"));
-
-
-                lesMinimas.add(new Minima("M55",115,1,"-56 kg","Monde"));
-                lesMinimas.add(new Minima("M55",102,1,"-56 kg","Europe"));
-                lesMinimas.add(new Minima("M55",92,1,"-56 kg","France"));
-
-                lesMinimas.add(new Minima("M55",127,1,"-62 kg","Monde"));
-                lesMinimas.add(new Minima("M55",112,1,"-62 kg","Europe"));
-                lesMinimas.add(new Minima("M55",102,1,"-62 kg","France"));
-
-                lesMinimas.add(new Minima("M55",140,1,"-69 kg","Monde"));
-                lesMinimas.add(new Minima("M55",125,1,"-69 kg","Europe"));
-                lesMinimas.add(new Minima("M55",115,1,"-69 kg","France"));
-
-                lesMinimas.add(new Minima("M55",152,1,"-77 kg","Monde"));
-                lesMinimas.add(new Minima("M55",135,1,"-77 kg","Europe"));
-                lesMinimas.add(new Minima("M55",125,1,"-77 kg","France"));
-
-                lesMinimas.add(new Minima("M55",162,1,"-85 kg","Monde"));
-                lesMinimas.add(new Minima("M55",142,1,"-85 kg","Europe"));
-                lesMinimas.add(new Minima("M55",132,1,"-85 kg","France"));
-
-                lesMinimas.add(new Minima("M55",170,1,"-94 kg","Monde"));
-                lesMinimas.add(new Minima("M55",150,1,"-94 kg","Europe"));
-                lesMinimas.add(new Minima("M55",140,1,"-94 kg","France"));
-
-                lesMinimas.add(new Minima("M55",177,1,"-105 kg","Monde"));
-                lesMinimas.add(new Minima("M55",157,1,"-105 kg","Europe"));
-                lesMinimas.add(new Minima("M55",147,1,"-105 kg","France"));
-
-                lesMinimas.add(new Minima("M55",182,1,"+105 kg","Monde"));
-                lesMinimas.add(new Minima("M55",165,1,"+105 kg","Europe"));
-                lesMinimas.add(new Minima("M55",155,1,"+105 kg","France"));
+                lesMinimas.add(new Minima("VM40",232,1,"+105 kg","Monde"));
+                lesMinimas.add(new Minima("VM40",207,1,"+105 kg","Europe"));
+                lesMinimas.add(new Minima("VM40",197,1,"+105 kg","France"));
 
 
 
-                lesMinimas.add(new Minima("M60",105,1,"-56 kg","Monde"));
-                lesMinimas.add(new Minima("M60",92,1,"-56 kg","Europe"));
-                lesMinimas.add(new Minima("M60",82,1,"-56 kg","France"));
+                lesMinimas.add(new Minima("VM45",140,1,"-56 kg","Monde"));
+                lesMinimas.add(new Minima("VM45",125,1,"-56 kg","Europe"));
+                lesMinimas.add(new Minima("VM45",115,1,"-56 kg","France"));
 
-                lesMinimas.add(new Minima("M60",117,1,"-62 kg","Monde"));
-                lesMinimas.add(new Minima("M60",102,1,"-62 kg","Europe"));
-                lesMinimas.add(new Minima("M60",92,1,"-62 kg","France"));
+                lesMinimas.add(new Minima("VM45",155,1,"-62 kg","Monde"));
+                lesMinimas.add(new Minima("VM45",137,1,"-62 kg","Europe"));
+                lesMinimas.add(new Minima("VM45",127,1,"-62 kg","France"));
 
-                lesMinimas.add(new Minima("M60",127,1,"-69 kg","Monde"));
-                lesMinimas.add(new Minima("M60",112,1,"-69 kg","Europe"));
-                lesMinimas.add(new Minima("M60",102,1,"-69 kg","France"));
+                lesMinimas.add(new Minima("VM45",170,1,"-69 kg","Monde"));
+                lesMinimas.add(new Minima("VM45",150,1,"-69 kg","Europe"));
+                lesMinimas.add(new Minima("VM45",140,1,"-69 kg","France"));
 
-                lesMinimas.add(new Minima("M60",137,1,"-77 kg","Monde"));
-                lesMinimas.add(new Minima("M60",122,1,"-77 kg","Europe"));
-                lesMinimas.add(new Minima("M60",112,1,"-77 kg","France"));
+                lesMinimas.add(new Minima("VM45",185,1,"-77 kg","Monde"));
+                lesMinimas.add(new Minima("VM45",165,1,"-77 kg","Europe"));
+                lesMinimas.add(new Minima("VM45",155,1,"-77 kg","France"));
 
-                lesMinimas.add(new Minima("M60",147,1,"-85 kg","Monde"));
-                lesMinimas.add(new Minima("M60",130,1,"-85 kg","Europe"));
-                lesMinimas.add(new Minima("M60",120,1,"-85 kg","France"));
+                lesMinimas.add(new Minima("VM45",195,1,"-85 kg","Monde"));
+                lesMinimas.add(new Minima("VM45",175,1,"-85 kg","Europe"));
+                lesMinimas.add(new Minima("VM45",165,1,"-85 kg","France"));
 
-                lesMinimas.add(new Minima("M60",155,1,"-94 kg","Monde"));
-                lesMinimas.add(new Minima("M60",137,1,"-94 kg","Europe"));
-                lesMinimas.add(new Minima("M60",127,1,"-94 kg","France"));
+                lesMinimas.add(new Minima("VM45",205,1,"-94 kg","Monde"));
+                lesMinimas.add(new Minima("VM45",182,1,"-94 kg","Europe"));
+                lesMinimas.add(new Minima("VM45",172,1,"-94 kg","France"));
 
-                lesMinimas.add(new Minima("M60",160,1,"-105 kg","Monde"));
-                lesMinimas.add(new Minima("M60",142,1,"-105 kg","Europe"));
-                lesMinimas.add(new Minima("M60",132,1,"-105 kg","France"));
+                lesMinimas.add(new Minima("VM45",212,1,"-105 kg","Monde"));
+                lesMinimas.add(new Minima("VM45",190,1,"-105 kg","Europe"));
+                lesMinimas.add(new Minima("VM45",180,1,"-105 kg","France"));
 
-                lesMinimas.add(new Minima("M60",167,1,"+105 kg","Monde"));
-                lesMinimas.add(new Minima("M60",150,1,"+105 kg","Europe"));
-                lesMinimas.add(new Minima("M60",140,1,"+105 kg","France"));
+                lesMinimas.add(new Minima("VM45",222,1,"+105 kg","Monde"));
+                lesMinimas.add(new Minima("VM45",197,1,"+105 kg","Europe"));
+                lesMinimas.add(new Minima("VM45",187,1,"+105 kg","France"));
+
+
+                lesMinimas.add(new Minima("VM50",130,1,"-56 kg","Monde"));
+                lesMinimas.add(new Minima("VM50",115,1,"-56 kg","Europe"));
+                lesMinimas.add(new Minima("VM50",105,1,"-56 kg","France"));
+
+                lesMinimas.add(new Minima("VM50",142,1,"-62 kg","Monde"));
+                lesMinimas.add(new Minima("VM50",127,1,"-62 kg","Europe"));
+                lesMinimas.add(new Minima("VM50",117,1,"-62 kg","France"));
+
+                lesMinimas.add(new Minima("VM50",157,1,"-69 kg","Monde"));
+                lesMinimas.add(new Minima("VM50",140,1,"-69 kg","Europe"));
+                lesMinimas.add(new Minima("VM50",130,1,"-69 kg","France"));
+
+                lesMinimas.add(new Minima("VM50",170,1,"-77 kg","Monde"));
+                lesMinimas.add(new Minima("VM50",150,1,"-77 kg","Europe"));
+                lesMinimas.add(new Minima("VM50",140,1,"-77 kg","France"));
+
+                lesMinimas.add(new Minima("VM50",180,1,"-85 kg","Monde"));
+                lesMinimas.add(new Minima("VM50",160,1,"-85 kg","Europe"));
+                lesMinimas.add(new Minima("VM50",150,1,"-85 kg","France"));
+
+                lesMinimas.add(new Minima("VM50",190,1,"-94 kg","Monde"));
+                lesMinimas.add(new Minima("VM50",167,1,"-94 kg","Europe"));
+                lesMinimas.add(new Minima("VM50",157,1,"-94 kg","France"));
+
+                lesMinimas.add(new Minima("VM50",197,1,"-105 kg","Monde"));
+                lesMinimas.add(new Minima("VM50",175,1,"-105 kg","Europe"));
+                lesMinimas.add(new Minima("VM50",165,1,"-105 kg","France"));
+
+                lesMinimas.add(new Minima("VM50",205,1,"+105 kg","Monde"));
+                lesMinimas.add(new Minima("VM50",182,1,"+105 kg","Europe"));
+                lesMinimas.add(new Minima("VM50",172,1,"+105 kg","France"));
+
+
+                lesMinimas.add(new Minima("VM55",115,1,"-56 kg","Monde"));
+                lesMinimas.add(new Minima("VM55",102,1,"-56 kg","Europe"));
+                lesMinimas.add(new Minima("VM55",92,1,"-56 kg","France"));
+
+                lesMinimas.add(new Minima("VM55",127,1,"-62 kg","Monde"));
+                lesMinimas.add(new Minima("VM55",112,1,"-62 kg","Europe"));
+                lesMinimas.add(new Minima("VM55",102,1,"-62 kg","France"));
+
+                lesMinimas.add(new Minima("VM55",140,1,"-69 kg","Monde"));
+                lesMinimas.add(new Minima("VM55",125,1,"-69 kg","Europe"));
+                lesMinimas.add(new Minima("VM55",115,1,"-69 kg","France"));
+
+                lesMinimas.add(new Minima("VM55",152,1,"-77 kg","Monde"));
+                lesMinimas.add(new Minima("VM55",135,1,"-77 kg","Europe"));
+                lesMinimas.add(new Minima("VM55",125,1,"-77 kg","France"));
+
+                lesMinimas.add(new Minima("VM55",162,1,"-85 kg","Monde"));
+                lesMinimas.add(new Minima("VM55",142,1,"-85 kg","Europe"));
+                lesMinimas.add(new Minima("VM55",132,1,"-85 kg","France"));
+
+                lesMinimas.add(new Minima("VM55",170,1,"-94 kg","Monde"));
+                lesMinimas.add(new Minima("VM55",150,1,"-94 kg","Europe"));
+                lesMinimas.add(new Minima("VM55",140,1,"-94 kg","France"));
+
+                lesMinimas.add(new Minima("VM55",177,1,"-105 kg","Monde"));
+                lesMinimas.add(new Minima("VM55",157,1,"-105 kg","Europe"));
+                lesMinimas.add(new Minima("VM55",147,1,"-105 kg","France"));
+
+                lesMinimas.add(new Minima("VM55",182,1,"+105 kg","Monde"));
+                lesMinimas.add(new Minima("VM55",165,1,"+105 kg","Europe"));
+                lesMinimas.add(new Minima("VM55",155,1,"+105 kg","France"));
 
 
 
-                lesMinimas.add(new Minima("M65",92,1,"-56 kg","Monde"));
-                lesMinimas.add(new Minima("M65",80,1,"-56 kg","Europe"));
-                lesMinimas.add(new Minima("M65",70,1,"-56 kg","France"));
+                lesMinimas.add(new Minima("VM60",105,1,"-56 kg","Monde"));
+                lesMinimas.add(new Minima("VM60",92,1,"-56 kg","Europe"));
+                lesMinimas.add(new Minima("VM60",82,1,"-56 kg","France"));
 
-                lesMinimas.add(new Minima("M65",102,1,"-62 kg","Monde"));
-                lesMinimas.add(new Minima("M65",90,1,"-62 kg","Europe"));
-                lesMinimas.add(new Minima("M65",80,1,"-62 kg","France"));
+                lesMinimas.add(new Minima("VM60",117,1,"-62 kg","Monde"));
+                lesMinimas.add(new Minima("VM60",102,1,"-62 kg","Europe"));
+                lesMinimas.add(new Minima("VM60",92,1,"-62 kg","France"));
 
-                lesMinimas.add(new Minima("M65",112,1,"-69 kg","Monde"));
-                lesMinimas.add(new Minima("M65",97,1,"-69 kg","Europe"));
-                lesMinimas.add(new Minima("M65",87,1,"-69 kg","France"));
+                lesMinimas.add(new Minima("VM60",127,1,"-69 kg","Monde"));
+                lesMinimas.add(new Minima("VM60",112,1,"-69 kg","Europe"));
+                lesMinimas.add(new Minima("VM60",102,1,"-69 kg","France"));
 
-                lesMinimas.add(new Minima("M65",120,1,"-77 kg","Monde"));
-                lesMinimas.add(new Minima("M65",107,1,"-77 kg","Europe"));
-                lesMinimas.add(new Minima("M65",97,1,"-77 kg","France"));
+                lesMinimas.add(new Minima("VM60",137,1,"-77 kg","Monde"));
+                lesMinimas.add(new Minima("VM60",122,1,"-77 kg","Europe"));
+                lesMinimas.add(new Minima("VM60",112,1,"-77 kg","France"));
 
-                lesMinimas.add(new Minima("M65",127,1,"-85 kg","Monde"));
-                lesMinimas.add(new Minima("M65",112,1,"-85 kg","Europe"));
-                lesMinimas.add(new Minima("M65",102,1,"-85 kg","France"));
+                lesMinimas.add(new Minima("VM60",147,1,"-85 kg","Monde"));
+                lesMinimas.add(new Minima("VM60",130,1,"-85 kg","Europe"));
+                lesMinimas.add(new Minima("VM60",120,1,"-85 kg","France"));
 
-                lesMinimas.add(new Minima("M65",135,1,"-94 kg","Monde"));
-                lesMinimas.add(new Minima("M65",120,1,"-94 kg","Europe"));
-                lesMinimas.add(new Minima("M65",110,1,"-94 kg","France"));
+                lesMinimas.add(new Minima("VM60",155,1,"-94 kg","Monde"));
+                lesMinimas.add(new Minima("VM60",137,1,"-94 kg","Europe"));
+                lesMinimas.add(new Minima("VM60",127,1,"-94 kg","France"));
 
-                lesMinimas.add(new Minima("M65",140,1,"-105 kg","Monde"));
-                lesMinimas.add(new Minima("M65",122,1,"-105 kg","Europe"));
-                lesMinimas.add(new Minima("M65",112,1,"-105 kg","France"));
+                lesMinimas.add(new Minima("VM60",160,1,"-105 kg","Monde"));
+                lesMinimas.add(new Minima("VM60",142,1,"-105 kg","Europe"));
+                lesMinimas.add(new Minima("VM60",132,1,"-105 kg","France"));
 
-                lesMinimas.add(new Minima("M65",145,1,"+105 kg","Monde"));
-                lesMinimas.add(new Minima("M65",127,1,"+105 kg","Europe"));
-                lesMinimas.add(new Minima("M65",117,1,"+105 kg","France"));
+                lesMinimas.add(new Minima("VM60",167,1,"+105 kg","Monde"));
+                lesMinimas.add(new Minima("VM60",150,1,"+105 kg","Europe"));
+                lesMinimas.add(new Minima("VM60",140,1,"+105 kg","France"));
+
+
+
+                lesMinimas.add(new Minima("VM65",92,1,"-56 kg","Monde"));
+                lesMinimas.add(new Minima("VM65",80,1,"-56 kg","Europe"));
+                lesMinimas.add(new Minima("VM65",70,1,"-56 kg","France"));
+
+                lesMinimas.add(new Minima("VM65",102,1,"-62 kg","Monde"));
+                lesMinimas.add(new Minima("VM65",90,1,"-62 kg","Europe"));
+                lesMinimas.add(new Minima("VM65",80,1,"-62 kg","France"));
+
+                lesMinimas.add(new Minima("VM65",112,1,"-69 kg","Monde"));
+                lesMinimas.add(new Minima("VM65",97,1,"-69 kg","Europe"));
+                lesMinimas.add(new Minima("VM65",87,1,"-69 kg","France"));
+
+                lesMinimas.add(new Minima("VM65",120,1,"-77 kg","Monde"));
+                lesMinimas.add(new Minima("VM65",107,1,"-77 kg","Europe"));
+                lesMinimas.add(new Minima("VM65",97,1,"-77 kg","France"));
+
+                lesMinimas.add(new Minima("VM65",127,1,"-85 kg","Monde"));
+                lesMinimas.add(new Minima("VM65",112,1,"-85 kg","Europe"));
+                lesMinimas.add(new Minima("VM65",102,1,"-85 kg","France"));
+
+                lesMinimas.add(new Minima("VM65",135,1,"-94 kg","Monde"));
+                lesMinimas.add(new Minima("VM65",120,1,"-94 kg","Europe"));
+                lesMinimas.add(new Minima("VM65",110,1,"-94 kg","France"));
+
+                lesMinimas.add(new Minima("VM65",140,1,"-105 kg","Monde"));
+                lesMinimas.add(new Minima("VM65",122,1,"-105 kg","Europe"));
+                lesMinimas.add(new Minima("VM65",112,1,"-105 kg","France"));
+
+                lesMinimas.add(new Minima("VM65",145,1,"+105 kg","Monde"));
+                lesMinimas.add(new Minima("VM65",127,1,"+105 kg","Europe"));
+                lesMinimas.add(new Minima("VM65",117,1,"+105 kg","France"));
 
 
 
@@ -1248,287 +1249,287 @@ public class MainActivity extends AppCompatActivity
 
 
 
-                lesMinimas.add(new Minima("M80",55,1,"-56 kg","Monde"));
-                lesMinimas.add(new Minima("M80",-1,1,"-56 kg","Europe"));
-                lesMinimas.add(new Minima("M80",50,1,"-56 kg","France"));
+                lesMinimas.add(new Minima("VM80",55,1,"-56 kg","Monde"));
+                lesMinimas.add(new Minima("VM80",-1,1,"-56 kg","Europe"));
+                lesMinimas.add(new Minima("VM80",50,1,"-56 kg","France"));
 
-                lesMinimas.add(new Minima("M80",55,1,"-62 kg","Monde"));
-                lesMinimas.add(new Minima("M80",-1,1,"-62 kg","Europe"));
-                lesMinimas.add(new Minima("M80",55,1,"-62 kg","France"));
+                lesMinimas.add(new Minima("VM80",55,1,"-62 kg","Monde"));
+                lesMinimas.add(new Minima("VM80",-1,1,"-62 kg","Europe"));
+                lesMinimas.add(new Minima("VM80",55,1,"-62 kg","France"));
 
-                lesMinimas.add(new Minima("M80",60,1,"-69 kg","Monde"));
-                lesMinimas.add(new Minima("M80",-1,1,"-69 kg","Europe"));
-                lesMinimas.add(new Minima("M80",60,1,"-69 kg","France"));
+                lesMinimas.add(new Minima("VM80",60,1,"-69 kg","Monde"));
+                lesMinimas.add(new Minima("VM80",-1,1,"-69 kg","Europe"));
+                lesMinimas.add(new Minima("VM80",60,1,"-69 kg","France"));
 
-                lesMinimas.add(new Minima("M80",65,1,"-77 kg","Monde"));
-                lesMinimas.add(new Minima("M80",-1,1,"-77 kg","Europe"));
-                lesMinimas.add(new Minima("M80",70,1,"-77 kg","France"));
+                lesMinimas.add(new Minima("VM80",65,1,"-77 kg","Monde"));
+                lesMinimas.add(new Minima("VM80",-1,1,"-77 kg","Europe"));
+                lesMinimas.add(new Minima("VM80",70,1,"-77 kg","France"));
 
-                lesMinimas.add(new Minima("M80",70,1,"-85 kg","Monde"));
-                lesMinimas.add(new Minima("M80",-1,1,"-85 kg","Europe"));
-                lesMinimas.add(new Minima("M80",75,1,"-85 kg","France"));
+                lesMinimas.add(new Minima("VM80",70,1,"-85 kg","Monde"));
+                lesMinimas.add(new Minima("VM80",-1,1,"-85 kg","Europe"));
+                lesMinimas.add(new Minima("VM80",75,1,"-85 kg","France"));
 
-                lesMinimas.add(new Minima("M80",72,1,"-94 kg","Monde"));
-                lesMinimas.add(new Minima("M80",-1,1,"-94 kg","Europe"));
-                lesMinimas.add(new Minima("M80",75,1,"-94 kg","France"));
+                lesMinimas.add(new Minima("VM80",72,1,"-94 kg","Monde"));
+                lesMinimas.add(new Minima("VM80",-1,1,"-94 kg","Europe"));
+                lesMinimas.add(new Minima("VM80",75,1,"-94 kg","France"));
 
-                lesMinimas.add(new Minima("M80",77,1,"-105 kg","Monde"));
-                lesMinimas.add(new Minima("M80",-1,1,"-105 kg","Europe"));
-                lesMinimas.add(new Minima("M80",80,1,"-105 kg","France"));
+                lesMinimas.add(new Minima("VM80",77,1,"-105 kg","Monde"));
+                lesMinimas.add(new Minima("VM80",-1,1,"-105 kg","Europe"));
+                lesMinimas.add(new Minima("VM80",80,1,"-105 kg","France"));
 
-                lesMinimas.add(new Minima("M80",80,1,"+105 kg","Monde"));
-                lesMinimas.add(new Minima("M80",-1,1,"+105 kg","Europe"));
-                lesMinimas.add(new Minima("M80",85,1,"+105 kg","France"));
+                lesMinimas.add(new Minima("VM80",80,1,"+105 kg","Monde"));
+                lesMinimas.add(new Minima("VM80",-1,1,"+105 kg","Europe"));
+                lesMinimas.add(new Minima("VM80",85,1,"+105 kg","France"));
 
 
                 //Master femme
-                lesMinimas.add(new Minima("F35",82,0,"-48 kg","Monde"));
-                lesMinimas.add(new Minima("F35",70,0,"-48 kg","Europe"));
-                lesMinimas.add(new Minima("F35",60,0,"-48 kg","France"));
+                lesMinimas.add(new Minima("VF35",82,0,"-48 kg","Monde"));
+                lesMinimas.add(new Minima("VF35",70,0,"-48 kg","Europe"));
+                lesMinimas.add(new Minima("VF35",60,0,"-48 kg","France"));
 
-                lesMinimas.add(new Minima("F35",90,0,"-53 kg","Monde"));
-                lesMinimas.add(new Minima("F35",72,0,"-53 kg","Europe"));
-                lesMinimas.add(new Minima("F35",60,0,"-53 kg","France"));
+                lesMinimas.add(new Minima("VF35",90,0,"-53 kg","Monde"));
+                lesMinimas.add(new Minima("VF35",72,0,"-53 kg","Europe"));
+                lesMinimas.add(new Minima("VF35",60,0,"-53 kg","France"));
 
-                lesMinimas.add(new Minima("F35",90,0,"-58 kg","Monde"));
-                lesMinimas.add(new Minima("F35",72,0,"-58 kg","Europe"));
-                lesMinimas.add(new Minima("F35",62,0,"-58 kg","France"));
+                lesMinimas.add(new Minima("VF35",90,0,"-58 kg","Monde"));
+                lesMinimas.add(new Minima("VF35",72,0,"-58 kg","Europe"));
+                lesMinimas.add(new Minima("VF35",62,0,"-58 kg","France"));
 
-                lesMinimas.add(new Minima("F35",95,0,"-63 kg","Monde"));
-                lesMinimas.add(new Minima("F35",77,0,"-63 kg","Europe"));
-                lesMinimas.add(new Minima("F35",67,0,"-63 kg","France"));
+                lesMinimas.add(new Minima("VF35",95,0,"-63 kg","Monde"));
+                lesMinimas.add(new Minima("VF35",77,0,"-63 kg","Europe"));
+                lesMinimas.add(new Minima("VF35",67,0,"-63 kg","France"));
 
-                lesMinimas.add(new Minima("F35",102,0,"-69 kg","Monde"));
-                lesMinimas.add(new Minima("F35",85,0,"-69 kg","Europe"));
-                lesMinimas.add(new Minima("F35",75,0,"-69 kg","France"));
+                lesMinimas.add(new Minima("VF35",102,0,"-69 kg","Monde"));
+                lesMinimas.add(new Minima("VF35",85,0,"-69 kg","Europe"));
+                lesMinimas.add(new Minima("VF35",75,0,"-69 kg","France"));
 
-                lesMinimas.add(new Minima("F35",107,0,"-75 kg","Monde"));
-                lesMinimas.add(new Minima("F35",87,0,"-75 kg","Europe"));
-                lesMinimas.add(new Minima("F35",77,0,"-75 kg","France"));
+                lesMinimas.add(new Minima("VF35",107,0,"-75 kg","Monde"));
+                lesMinimas.add(new Minima("VF35",87,0,"-75 kg","Europe"));
+                lesMinimas.add(new Minima("VF35",77,0,"-75 kg","France"));
 
-                lesMinimas.add(new Minima("F35",112,0,"+75 kg","Monde"));
-                lesMinimas.add(new Minima("F35",95,0,"+75 kg","Europe"));
-                lesMinimas.add(new Minima("F35",85,0,"+75 kg","France"));
+                lesMinimas.add(new Minima("VF35",112,0,"+75 kg","Monde"));
+                lesMinimas.add(new Minima("VF35",95,0,"+75 kg","Europe"));
+                lesMinimas.add(new Minima("VF35",85,0,"+75 kg","France"));
 
 
 
 
 
-                lesMinimas.add(new Minima("F40",80,0,"-48 kg","Monde"));
-                lesMinimas.add(new Minima("F40",65,0,"-48 kg","Europe"));
-                lesMinimas.add(new Minima("F40",55,0,"-48 kg","France"));
+                lesMinimas.add(new Minima("VF40",80,0,"-48 kg","Monde"));
+                lesMinimas.add(new Minima("VF40",65,0,"-48 kg","Europe"));
+                lesMinimas.add(new Minima("VF40",55,0,"-48 kg","France"));
 
-                lesMinimas.add(new Minima("F40",85,0,"-53 kg","Monde"));
-                lesMinimas.add(new Minima("F40",70,0,"-53 kg","Europe"));
-                lesMinimas.add(new Minima("F40",60,0,"-53 kg","France"));
+                lesMinimas.add(new Minima("VF40",85,0,"-53 kg","Monde"));
+                lesMinimas.add(new Minima("VF40",70,0,"-53 kg","Europe"));
+                lesMinimas.add(new Minima("VF40",60,0,"-53 kg","France"));
 
-                lesMinimas.add(new Minima("F40",90,0,"-58 kg","Monde"));
-                lesMinimas.add(new Minima("F40",72,0,"-58 kg","Europe"));
-                lesMinimas.add(new Minima("F40",62,0,"-58 kg","France"));
+                lesMinimas.add(new Minima("VF40",90,0,"-58 kg","Monde"));
+                lesMinimas.add(new Minima("VF40",72,0,"-58 kg","Europe"));
+                lesMinimas.add(new Minima("VF40",62,0,"-58 kg","France"));
 
-                lesMinimas.add(new Minima("F40",95,0,"-63 kg","Monde"));
-                lesMinimas.add(new Minima("F40",75,0,"-63 kg","Europe"));
-                lesMinimas.add(new Minima("F40",65,0,"-63 kg","France"));
+                lesMinimas.add(new Minima("VF40",95,0,"-63 kg","Monde"));
+                lesMinimas.add(new Minima("VF40",75,0,"-63 kg","Europe"));
+                lesMinimas.add(new Minima("VF40",65,0,"-63 kg","France"));
 
-                lesMinimas.add(new Minima("F40",97,0,"-69 kg","Monde"));
-                lesMinimas.add(new Minima("F40",80,0,"-69 kg","Europe"));
-                lesMinimas.add(new Minima("F40",80,0,"-69 kg","France"));
+                lesMinimas.add(new Minima("VF40",97,0,"-69 kg","Monde"));
+                lesMinimas.add(new Minima("VF40",80,0,"-69 kg","Europe"));
+                lesMinimas.add(new Minima("VF40",80,0,"-69 kg","France"));
 
-                lesMinimas.add(new Minima("F40",100,0,"-75 kg","Monde"));
-                lesMinimas.add(new Minima("F40",82,0,"-75 kg","Europe"));
-                lesMinimas.add(new Minima("F40",72,0,"-75 kg","France"));
+                lesMinimas.add(new Minima("VF40",100,0,"-75 kg","Monde"));
+                lesMinimas.add(new Minima("VF40",82,0,"-75 kg","Europe"));
+                lesMinimas.add(new Minima("VF40",72,0,"-75 kg","France"));
 
-                lesMinimas.add(new Minima("F40",105,0,"+75 kg","Monde"));
-                lesMinimas.add(new Minima("F40",90,0,"+75 kg","Europe"));
-                lesMinimas.add(new Minima("F40",80,0,"+75 kg","France"));
+                lesMinimas.add(new Minima("VF40",105,0,"+75 kg","Monde"));
+                lesMinimas.add(new Minima("VF40",90,0,"+75 kg","Europe"));
+                lesMinimas.add(new Minima("VF40",80,0,"+75 kg","France"));
 
 
 
 
 
 
-                lesMinimas.add(new Minima("F45",82,0,"-48 kg","Monde"));
-                lesMinimas.add(new Minima("F45",70,0,"-48 kg","Europe"));
-                lesMinimas.add(new Minima("F45",60,0,"-48 kg","France"));
+                lesMinimas.add(new Minima("VF45",82,0,"-48 kg","Monde"));
+                lesMinimas.add(new Minima("VF45",70,0,"-48 kg","Europe"));
+                lesMinimas.add(new Minima("VF45",60,0,"-48 kg","France"));
 
-                lesMinimas.add(new Minima("F45",90,0,"-53 kg","Monde"));
-                lesMinimas.add(new Minima("F45",72,0,"-53 kg","Europe"));
-                lesMinimas.add(new Minima("F45",60,0,"-53 kg","France"));
+                lesMinimas.add(new Minima("VF45",90,0,"-53 kg","Monde"));
+                lesMinimas.add(new Minima("VF45",72,0,"-53 kg","Europe"));
+                lesMinimas.add(new Minima("VF45",60,0,"-53 kg","France"));
 
-                lesMinimas.add(new Minima("F45",90,0,"-58 kg","Monde"));
-                lesMinimas.add(new Minima("F45",72,0,"-58 kg","Europe"));
-                lesMinimas.add(new Minima("F45",62,0,"-58 kg","France"));
+                lesMinimas.add(new Minima("VF45",90,0,"-58 kg","Monde"));
+                lesMinimas.add(new Minima("VF45",72,0,"-58 kg","Europe"));
+                lesMinimas.add(new Minima("VF45",62,0,"-58 kg","France"));
 
-                lesMinimas.add(new Minima("F45",95,0,"-63 kg","Monde"));
-                lesMinimas.add(new Minima("F45",77,0,"-63 kg","Europe"));
-                lesMinimas.add(new Minima("F45",67,0,"-63 kg","France"));
+                lesMinimas.add(new Minima("VF45",95,0,"-63 kg","Monde"));
+                lesMinimas.add(new Minima("VF45",77,0,"-63 kg","Europe"));
+                lesMinimas.add(new Minima("VF45",67,0,"-63 kg","France"));
 
-                lesMinimas.add(new Minima("F45",90,0,"-69 kg","Monde"));
-                lesMinimas.add(new Minima("F45",75,0,"-69 kg","Europe"));
-                lesMinimas.add(new Minima("F45",65,0,"-69 kg","France"));
+                lesMinimas.add(new Minima("VF45",90,0,"-69 kg","Monde"));
+                lesMinimas.add(new Minima("VF45",75,0,"-69 kg","Europe"));
+                lesMinimas.add(new Minima("VF45",65,0,"-69 kg","France"));
 
-                lesMinimas.add(new Minima("F45",92,0,"-75 kg","Monde"));
-                lesMinimas.add(new Minima("F45",77,0,"-75 kg","Europe"));
-                lesMinimas.add(new Minima("F45",67,0,"-75 kg","France"));
+                lesMinimas.add(new Minima("VF45",92,0,"-75 kg","Monde"));
+                lesMinimas.add(new Minima("VF45",77,0,"-75 kg","Europe"));
+                lesMinimas.add(new Minima("VF45",67,0,"-75 kg","France"));
 
-                lesMinimas.add(new Minima("F45",97,0,"+75 kg","Monde"));
-                lesMinimas.add(new Minima("F45",85,0,"+75 kg","Europe"));
-                lesMinimas.add(new Minima("F45",75,0,"+75 kg","France"));
+                lesMinimas.add(new Minima("VF45",97,0,"+75 kg","Monde"));
+                lesMinimas.add(new Minima("VF45",85,0,"+75 kg","Europe"));
+                lesMinimas.add(new Minima("VF45",75,0,"+75 kg","France"));
 
 
 
 
-                lesMinimas.add(new Minima("F50",67,0,"-48 kg","Monde"));
-                lesMinimas.add(new Minima("F50",60,0,"-48 kg","Europe"));
-                lesMinimas.add(new Minima("F50",50,0,"-48 kg","France"));
+                lesMinimas.add(new Minima("VF50",67,0,"-48 kg","Monde"));
+                lesMinimas.add(new Minima("VF50",60,0,"-48 kg","Europe"));
+                lesMinimas.add(new Minima("VF50",50,0,"-48 kg","France"));
 
-                lesMinimas.add(new Minima("F50",72,0,"-53 kg","Monde"));
-                lesMinimas.add(new Minima("F50",62,0,"-53 kg","Europe"));
-                lesMinimas.add(new Minima("F50",52,0,"-53 kg","France"));
+                lesMinimas.add(new Minima("VF50",72,0,"-53 kg","Monde"));
+                lesMinimas.add(new Minima("VF50",62,0,"-53 kg","Europe"));
+                lesMinimas.add(new Minima("VF50",52,0,"-53 kg","France"));
 
-                lesMinimas.add(new Minima("F50",75,0,"-58 kg","Monde"));
-                lesMinimas.add(new Minima("F50",65,0,"-58 kg","Europe"));
-                lesMinimas.add(new Minima("F50",55,0,"-58 kg","France"));
+                lesMinimas.add(new Minima("VF50",75,0,"-58 kg","Monde"));
+                lesMinimas.add(new Minima("VF50",65,0,"-58 kg","Europe"));
+                lesMinimas.add(new Minima("VF50",55,0,"-58 kg","France"));
 
-                lesMinimas.add(new Minima("F50",77,0,"-63 kg","Monde"));
-                lesMinimas.add(new Minima("F50",70,0,"-63 kg","Europe"));
-                lesMinimas.add(new Minima("F50",60,0,"-63 kg","France"));
+                lesMinimas.add(new Minima("VF50",77,0,"-63 kg","Monde"));
+                lesMinimas.add(new Minima("VF50",70,0,"-63 kg","Europe"));
+                lesMinimas.add(new Minima("VF50",60,0,"-63 kg","France"));
 
-                lesMinimas.add(new Minima("F50",82,0,"-69 kg","Monde"));
-                lesMinimas.add(new Minima("F50",72,0,"-69 kg","Europe"));
-                lesMinimas.add(new Minima("F50",62,0,"-69 kg","France"));
+                lesMinimas.add(new Minima("VF50",82,0,"-69 kg","Monde"));
+                lesMinimas.add(new Minima("VF50",72,0,"-69 kg","Europe"));
+                lesMinimas.add(new Minima("VF50",62,0,"-69 kg","France"));
 
-                lesMinimas.add(new Minima("F50",85,0,"-75 kg","Monde"));
-                lesMinimas.add(new Minima("F50",75,0,"-75 kg","Europe"));
-                lesMinimas.add(new Minima("F50",65,0,"-75 kg","France"));
+                lesMinimas.add(new Minima("VF50",85,0,"-75 kg","Monde"));
+                lesMinimas.add(new Minima("VF50",75,0,"-75 kg","Europe"));
+                lesMinimas.add(new Minima("VF50",65,0,"-75 kg","France"));
 
-                lesMinimas.add(new Minima("F50",90,0,"+75 kg","Monde"));
-                lesMinimas.add(new Minima("F50",82,0,"+75 kg","Europe"));
-                lesMinimas.add(new Minima("F50",72,0,"+75 kg","France"));
+                lesMinimas.add(new Minima("VF50",90,0,"+75 kg","Monde"));
+                lesMinimas.add(new Minima("VF50",82,0,"+75 kg","Europe"));
+                lesMinimas.add(new Minima("VF50",72,0,"+75 kg","France"));
 
 
 
 
 
 
-                lesMinimas.add(new Minima("F55",60,0,"-48 kg","Monde"));
-                lesMinimas.add(new Minima("F55",55,0,"-48 kg","Europe"));
-                lesMinimas.add(new Minima("F55",45,0,"-48 kg","France"));
+                lesMinimas.add(new Minima("VF55",60,0,"-48 kg","Monde"));
+                lesMinimas.add(new Minima("VF55",55,0,"-48 kg","Europe"));
+                lesMinimas.add(new Minima("VF55",45,0,"-48 kg","France"));
 
-                lesMinimas.add(new Minima("F55",65,0,"-53 kg","Monde"));
-                lesMinimas.add(new Minima("F55",57,0,"-53 kg","Europe"));
-                lesMinimas.add(new Minima("F55",47,0,"-53 kg","France"));
+                lesMinimas.add(new Minima("VF55",65,0,"-53 kg","Monde"));
+                lesMinimas.add(new Minima("VF55",57,0,"-53 kg","Europe"));
+                lesMinimas.add(new Minima("VF55",47,0,"-53 kg","France"));
 
-                lesMinimas.add(new Minima("F55",67,0,"-58 kg","Monde"));
-                lesMinimas.add(new Minima("F55",62,0,"-58 kg","Europe"));
-                lesMinimas.add(new Minima("F55",52,0,"-58 kg","France"));
+                lesMinimas.add(new Minima("VF55",67,0,"-58 kg","Monde"));
+                lesMinimas.add(new Minima("VF55",62,0,"-58 kg","Europe"));
+                lesMinimas.add(new Minima("VF55",52,0,"-58 kg","France"));
 
-                lesMinimas.add(new Minima("F55",70,0,"-63 kg","Monde"));
-                lesMinimas.add(new Minima("F55",65,0,"-63 kg","Europe"));
-                lesMinimas.add(new Minima("F55",55,0,"-63 kg","France"));
+                lesMinimas.add(new Minima("VF55",70,0,"-63 kg","Monde"));
+                lesMinimas.add(new Minima("VF55",65,0,"-63 kg","Europe"));
+                lesMinimas.add(new Minima("VF55",55,0,"-63 kg","France"));
 
-                lesMinimas.add(new Minima("F55",75,0,"-69 kg","Monde"));
-                lesMinimas.add(new Minima("F55",67,0,"-69 kg","Europe"));
-                lesMinimas.add(new Minima("F55",57,0,"-69 kg","France"));
+                lesMinimas.add(new Minima("VF55",75,0,"-69 kg","Monde"));
+                lesMinimas.add(new Minima("VF55",67,0,"-69 kg","Europe"));
+                lesMinimas.add(new Minima("VF55",57,0,"-69 kg","France"));
 
-                lesMinimas.add(new Minima("F55",77,0,"-75 kg","Monde"));
-                lesMinimas.add(new Minima("F55",70,0,"-75 kg","Europe"));
-                lesMinimas.add(new Minima("F55",60,0,"-75 kg","France"));
+                lesMinimas.add(new Minima("VF55",77,0,"-75 kg","Monde"));
+                lesMinimas.add(new Minima("VF55",70,0,"-75 kg","Europe"));
+                lesMinimas.add(new Minima("VF55",60,0,"-75 kg","France"));
 
-                lesMinimas.add(new Minima("F55",82,0,"+75 kg","Monde"));
-                lesMinimas.add(new Minima("F55",77,0,"+75 kg","Europe"));
-                lesMinimas.add(new Minima("F55",67,0,"+75 kg","France"));
+                lesMinimas.add(new Minima("VF55",82,0,"+75 kg","Monde"));
+                lesMinimas.add(new Minima("VF55",77,0,"+75 kg","Europe"));
+                lesMinimas.add(new Minima("VF55",67,0,"+75 kg","France"));
 
 
 
-                lesMinimas.add(new Minima("F60",55,0,"-48 kg","Monde"));
-                lesMinimas.add(new Minima("F60",52,0,"-48 kg","Europe"));
-                lesMinimas.add(new Minima("F60",42,0,"-48 kg","France"));
+                lesMinimas.add(new Minima("VF60",55,0,"-48 kg","Monde"));
+                lesMinimas.add(new Minima("VF60",52,0,"-48 kg","Europe"));
+                lesMinimas.add(new Minima("VF60",42,0,"-48 kg","France"));
 
-                lesMinimas.add(new Minima("F60",57,0,"-53 kg","Monde"));
-                lesMinimas.add(new Minima("F60",55,0,"-53 kg","Europe"));
-                lesMinimas.add(new Minima("F60",45,0,"-53 kg","France"));
+                lesMinimas.add(new Minima("VF60",57,0,"-53 kg","Monde"));
+                lesMinimas.add(new Minima("VF60",55,0,"-53 kg","Europe"));
+                lesMinimas.add(new Minima("VF60",45,0,"-53 kg","France"));
 
-                lesMinimas.add(new Minima("F60",62,0,"-58 kg","Monde"));
-                lesMinimas.add(new Minima("F60",57,0,"-58 kg","Europe"));
-                lesMinimas.add(new Minima("F60",47,0,"-58 kg","France"));
+                lesMinimas.add(new Minima("VF60",62,0,"-58 kg","Monde"));
+                lesMinimas.add(new Minima("VF60",57,0,"-58 kg","Europe"));
+                lesMinimas.add(new Minima("VF60",47,0,"-58 kg","France"));
 
-                lesMinimas.add(new Minima("F60",65,0,"-63 kg","Monde"));
-                lesMinimas.add(new Minima("F60",60,0,"-63 kg","Europe"));
-                lesMinimas.add(new Minima("F60",50,0,"-63 kg","France"));
+                lesMinimas.add(new Minima("VF60",65,0,"-63 kg","Monde"));
+                lesMinimas.add(new Minima("VF60",60,0,"-63 kg","Europe"));
+                lesMinimas.add(new Minima("VF60",50,0,"-63 kg","France"));
 
-                lesMinimas.add(new Minima("F60",67,0,"-69 kg","Monde"));
-                lesMinimas.add(new Minima("F60",62,0,"-69 kg","Europe"));
-                lesMinimas.add(new Minima("F60",52,0,"-69 kg","France"));
+                lesMinimas.add(new Minima("VF60",67,0,"-69 kg","Monde"));
+                lesMinimas.add(new Minima("VF60",62,0,"-69 kg","Europe"));
+                lesMinimas.add(new Minima("VF60",52,0,"-69 kg","France"));
 
-                lesMinimas.add(new Minima("F60",70,0,"-75 kg","Monde"));
-                lesMinimas.add(new Minima("F60",65,0,"-75 kg","Europe"));
-                lesMinimas.add(new Minima("F60",55,0,"-75 kg","France"));
+                lesMinimas.add(new Minima("VF60",70,0,"-75 kg","Monde"));
+                lesMinimas.add(new Minima("VF60",65,0,"-75 kg","Europe"));
+                lesMinimas.add(new Minima("VF60",55,0,"-75 kg","France"));
 
-                lesMinimas.add(new Minima("F60",72,0,"+75 kg","Monde"));
-                lesMinimas.add(new Minima("F60",67,0,"+75 kg","Europe"));
-                lesMinimas.add(new Minima("F60",57,0,"+75 kg","France"));
+                lesMinimas.add(new Minima("VF60",72,0,"+75 kg","Monde"));
+                lesMinimas.add(new Minima("VF60",67,0,"+75 kg","Europe"));
+                lesMinimas.add(new Minima("VF60",57,0,"+75 kg","France"));
 
 
 
 
 
-                lesMinimas.add(new Minima("F65",50,0,"-48 kg","Monde"));
-                lesMinimas.add(new Minima("F65",50,0,"-48 kg","Europe"));
-                lesMinimas.add(new Minima("F65",40,0,"-48 kg","France"));
+                lesMinimas.add(new Minima("VF65",50,0,"-48 kg","Monde"));
+                lesMinimas.add(new Minima("VF65",50,0,"-48 kg","Europe"));
+                lesMinimas.add(new Minima("VF65",40,0,"-48 kg","France"));
 
-                lesMinimas.add(new Minima("F65",52,0,"-53 kg","Monde"));
-                lesMinimas.add(new Minima("F65",42,0,"-53 kg","Europe"));
-                lesMinimas.add(new Minima("F65",42,0,"-53 kg","France"));
+                lesMinimas.add(new Minima("VF65",52,0,"-53 kg","Monde"));
+                lesMinimas.add(new Minima("VF65",42,0,"-53 kg","Europe"));
+                lesMinimas.add(new Minima("VF65",42,0,"-53 kg","France"));
 
-                lesMinimas.add(new Minima("F65",55,0,"-58 kg","Monde"));
-                lesMinimas.add(new Minima("F65",55,0,"-58 kg","Europe"));
-                lesMinimas.add(new Minima("F65",45,0,"-58 kg","France"));
+                lesMinimas.add(new Minima("VF65",55,0,"-58 kg","Monde"));
+                lesMinimas.add(new Minima("VF65",55,0,"-58 kg","Europe"));
+                lesMinimas.add(new Minima("VF65",45,0,"-58 kg","France"));
 
-                lesMinimas.add(new Minima("F65",57,0,"-63 kg","Monde"));
-                lesMinimas.add(new Minima("F65",57,0,"-63 kg","Europe"));
-                lesMinimas.add(new Minima("F65",47,0,"-63 kg","France"));
+                lesMinimas.add(new Minima("VF65",57,0,"-63 kg","Monde"));
+                lesMinimas.add(new Minima("VF65",57,0,"-63 kg","Europe"));
+                lesMinimas.add(new Minima("VF65",47,0,"-63 kg","France"));
 
-                lesMinimas.add(new Minima("F65",60,0,"-69 kg","Monde"));
-                lesMinimas.add(new Minima("F65",60,0,"-69 kg","Europe"));
-                lesMinimas.add(new Minima("F65",50,0,"-69 kg","France"));
+                lesMinimas.add(new Minima("VF65",60,0,"-69 kg","Monde"));
+                lesMinimas.add(new Minima("VF65",60,0,"-69 kg","Europe"));
+                lesMinimas.add(new Minima("VF65",50,0,"-69 kg","France"));
 
-                lesMinimas.add(new Minima("F65",62,0,"-75 kg","Monde"));
-                lesMinimas.add(new Minima("F65",62,0,"-75 kg","Europe"));
-                lesMinimas.add(new Minima("F65",52,0,"-75 kg","France"));
+                lesMinimas.add(new Minima("VF65",62,0,"-75 kg","Monde"));
+                lesMinimas.add(new Minima("VF65",62,0,"-75 kg","Europe"));
+                lesMinimas.add(new Minima("VF65",52,0,"-75 kg","France"));
 
-                lesMinimas.add(new Minima("F65",65,0,"+75 kg","Monde"));
-                lesMinimas.add(new Minima("F65",65,0,"+75 kg","Europe"));
-                lesMinimas.add(new Minima("F65",55,0,"+75 kg","France"));
+                lesMinimas.add(new Minima("VF65",65,0,"+75 kg","Monde"));
+                lesMinimas.add(new Minima("VF65",65,0,"+75 kg","Europe"));
+                lesMinimas.add(new Minima("VF65",55,0,"+75 kg","France"));
 
 
-                lesMinimas.add(new Minima("F70",46,0,"-48 kg","Monde"));
-                lesMinimas.add(new Minima("F70",-1,0,"-48 kg","Europe"));
-                lesMinimas.add(new Minima("F70",38,0,"-48 kg","France"));
+                lesMinimas.add(new Minima("VF70",46,0,"-48 kg","Monde"));
+                lesMinimas.add(new Minima("VF70",-1,0,"-48 kg","Europe"));
+                lesMinimas.add(new Minima("VF70",38,0,"-48 kg","France"));
 
-                lesMinimas.add(new Minima("F70",48,0,"-53 kg","Monde"));
-                lesMinimas.add(new Minima("F70",-1,0,"-53 kg","Europe"));
-                lesMinimas.add(new Minima("F70",40,0,"-53 kg","France"));
+                lesMinimas.add(new Minima("VF70",48,0,"-53 kg","Monde"));
+                lesMinimas.add(new Minima("VF70",-1,0,"-53 kg","Europe"));
+                lesMinimas.add(new Minima("VF70",40,0,"-53 kg","France"));
 
-                lesMinimas.add(new Minima("F70",50,0,"-58 kg","Monde"));
-                lesMinimas.add(new Minima("F70",-1,0,"-58 kg","Europe"));
-                lesMinimas.add(new Minima("F70",42,0,"-58 kg","France"));
+                lesMinimas.add(new Minima("VF70",50,0,"-58 kg","Monde"));
+                lesMinimas.add(new Minima("VF70",-1,0,"-58 kg","Europe"));
+                lesMinimas.add(new Minima("VF70",42,0,"-58 kg","France"));
 
-                lesMinimas.add(new Minima("F70",53,0,"-63 kg","Monde"));
-                lesMinimas.add(new Minima("F70",-1,0,"-63 kg","Europe"));
-                lesMinimas.add(new Minima("F70",45,0,"-63 kg","France"));
+                lesMinimas.add(new Minima("VF70",53,0,"-63 kg","Monde"));
+                lesMinimas.add(new Minima("VF70",-1,0,"-63 kg","Europe"));
+                lesMinimas.add(new Minima("VF70",45,0,"-63 kg","France"));
 
-                lesMinimas.add(new Minima("F70",56,0,"-69 kg","Monde"));
-                lesMinimas.add(new Minima("F70",-1,0,"-69 kg","Europe"));
-                lesMinimas.add(new Minima("F70",48,0,"-69 kg","France"));
+                lesMinimas.add(new Minima("VF70",56,0,"-69 kg","Monde"));
+                lesMinimas.add(new Minima("VF70",-1,0,"-69 kg","Europe"));
+                lesMinimas.add(new Minima("VF70",48,0,"-69 kg","France"));
 
-                lesMinimas.add(new Minima("F70",58,0,"-75 kg","Monde"));
-                lesMinimas.add(new Minima("F70",-1,0,"-75 kg","Europe"));
-                lesMinimas.add(new Minima("F70",50,0,"-75 kg","France"));
+                lesMinimas.add(new Minima("VF70",58,0,"-75 kg","Monde"));
+                lesMinimas.add(new Minima("VF70",-1,0,"-75 kg","Europe"));
+                lesMinimas.add(new Minima("VF70",50,0,"-75 kg","France"));
 
-                lesMinimas.add(new Minima("F70",61,0,"+75 kg","Monde"));
-                lesMinimas.add(new Minima("F70",-1,0,"+75 kg","Europe"));
-                lesMinimas.add(new Minima("F70",52,0,"+75 kg","France"));
+                lesMinimas.add(new Minima("VF70",61,0,"+75 kg","Monde"));
+                lesMinimas.add(new Minima("VF70",-1,0,"+75 kg","Europe"));
+                lesMinimas.add(new Minima("VF70",52,0,"+75 kg","France"));
 
 
                 MinimaBDD bddMinima = new MinimaBDD(getApplicationContext());

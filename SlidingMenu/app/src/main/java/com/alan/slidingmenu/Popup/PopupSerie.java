@@ -38,12 +38,17 @@ public class PopupSerie extends Dialog {
             @Override
             public void onClick(View v) {
                 EditText charge = (EditText) findViewById(R.id.popupSerieCharge);
+                EditText commentaire = (EditText) findViewById(R.id.popupSerieComm);
 
                 if (charge.getText().length() == 0) {
                     charge.setError("Quelle charge ?");
                 } else {
                     exo.getLesSeries()[serie] = Integer.parseInt(charge.getText().toString());
+                    exo.getLesCommentaires()[serie] = commentaire.getText().toString();
+
+                    System.out.println("commentaire : "+exo.getLesCommentaires()[serie]);
                     pop.cancel();
+
                 }
 
             }
