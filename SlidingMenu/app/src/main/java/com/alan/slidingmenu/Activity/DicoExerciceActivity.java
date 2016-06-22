@@ -88,15 +88,20 @@ public class DicoExerciceActivity extends AppCompatActivity implements Navigatio
             public void onClick(View v) {
                 Intent intent = new Intent(DicoExerciceActivity.this, PopupDescExercice.class);
                 //verifie pour chaque exo lequel on a cliqué ensuite il le passe dans l'intent et envoie la popup
-                for (ExoDico exo: exos
-                        ) {
-                    String test = exo.getStringExo().toString()+" "+exo.getCategorie().toString();
-                    if (test.equalsIgnoreCase(autoComplete.getText().toString())) {
-                        intent.putExtra("exo", exo);
+                if(autoComplete.getText().length()==0){
+                    autoComplete.setError("Quelle exercice ?");
+                }else {
+                    for (ExoDico exo: exos
+                            ) {
+                        String test = exo.getStringExo().toString()+" "+exo.getCategorie().toString();
+                        if (test.equalsIgnoreCase(autoComplete.getText().toString())) {
+                            intent.putExtra("exo", exo);
+                        }
+
                     }
+                    startActivity(intent);
 
                 }
-                startActivity(intent);
 
             }
         });
