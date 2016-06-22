@@ -19,14 +19,27 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-        <SearchView
-            android:layout_width="match_parent"
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/search_view_title"
-            android:queryHint="Search by name"
-            android:iconifiedByDefault="true"
-            >
-        </SearchView>
+            android:weightSum="1">
+
+            <AutoCompleteTextView
+                android:layout_width="331dp"
+                android:layout_height="wrap_content"
+                android:hint="Nom de l&apos;exercice"
+                android:id="@+id/auto_complete_text_view_exo_dico" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:id="@+id/button_recherche"
+                android:background="@android:drawable/ic_search_category_default" />
+        </LinearLayout>
 
         <ExpandableListView
             android:layout_width="match_parent"

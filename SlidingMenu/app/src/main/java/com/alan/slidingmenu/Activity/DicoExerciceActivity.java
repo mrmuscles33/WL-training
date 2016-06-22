@@ -11,6 +11,9 @@ import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.AutoCompleteTextView;
+import android.widget.Button;
 import android.widget.ExpandableListView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -31,6 +34,8 @@ public class DicoExerciceActivity extends AppCompatActivity implements Navigatio
     private NavigationView navigationView;
     ExpandableListAdapter listAdapter;
     ExpandableListView expListView;
+    AutoCompleteTextView autoComplete;
+    Button recherche;
     private ExoDico parceExo;
     List<String> listDataHeader;
     HashMap<String, List<String>> listDataChild;
@@ -57,18 +62,50 @@ public class DicoExerciceActivity extends AppCompatActivity implements Navigatio
 
         setNomHeader(user);
 
+        //prepare la liste des exercices pour les header list et l'autocompletion
+        prepareListData();
+
+        //cherche le widget autocompletion dans le layout activity_dico_exercice
+        autoComplete = (AutoCompleteTextView) findViewById(R.id.auto_complete_text_view_exo_dico);
+
+        //prépare la liste qui va être affiché pour l'autocompletionqui se compose du titre et de la categorie de l'exo
+        String[] nomExo  = new String[exos.size()];
+        int i = 0;
+        for (ExoDico exo: exos
+             ) {
+            nomExo[i++] = exo.getStringExo().toString()+" "+exo.getCategorie().toString();
+        }
+
+        //creerun adapter pour affiché les differentes lignes, le simple_dropdown_item_1line est natif a android et ensuite ajoute cette adapter a l'autocompletion
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.simple_dropdown_item_1line,nomExo);
+        autoComplete.setAdapter(adapter);
+
+        //bouton pour la recherhce
+        // TODO modifier le bouton par lorsque l'on clique sur entré on lance la recherche
+        recherche = (Button) findViewById(R.id.button_recherche);
+        recherche.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(DicoExerciceActivity.this, PopupDescExercice.class);
+                //verifie pour chaque exo lequel on a cliqué ensuite il le passe dans l'intent et envoie la popup
+                for (ExoDico exo: exos
+                        ) {
+                    String test = exo.getStringExo().toString()+" "+exo.getCategorie().toString();
+                    if (test.equalsIgnoreCase(autoComplete.getText().toString())) {
+                        intent.putExtra("exo", exo);
+                    }
+
+                }
+                startActivity(intent);
+
+            }
+        });
+
         expListView = (ExpandableListView) findViewById(R.id.expandableListView);
         expListView.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {
             @Override
             public boolean onChildClick(ExpandableListView parent, View v, int groupPosition, int childPosition, long id) {
-                /*Toast.makeText(
-                        getApplicationContext(),
-                        listDataHeader.get(groupPosition)
-                                + " : "
-                                + listDataChild.get(
-                                listDataHeader.get(groupPosition)).get(
-                                childPosition), Toast.LENGTH_SHORT)
-                        .show();*/
+
                 Intent intent = new Intent(DicoExerciceActivity.this, PopupDescExercice.class);
                 Bundle b = new Bundle();
                 for (ExoDico e : exos) {
@@ -91,7 +128,6 @@ public class DicoExerciceActivity extends AppCompatActivity implements Navigatio
             }
         });
         // preparing list data
-        prepareListData();
 
         listAdapter = new ExpandableListAdapter(this, listDataHeader, listDataChild);
 
