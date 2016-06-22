@@ -57,26 +57,28 @@ public class MainActivity extends AppCompatActivity
         UserPreferences pref = new UserPreferences(this);
         User user = pref.readUser();
 
-
         if (user == User.USER_VIDE) {
             new AlertDialog.Builder(this)
                     .setTitle("Inscription")
-                    .setMessage("avantages :\n      - Rédiger des séances." +
-                            "\n      - S'abonner à des entraineurs pour suivre leurs séances")
+                    .setMessage("Avantages :\n\t- Rédiger et réaliser des séances" +
+                            "\n\t- S'abonner à des entraineurs pour suivre leurs séances" +
+                            "\n\t- Et bien d'autres choses ...")
                     .setPositiveButton("Inscription", new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int which) {
                             PopupInscription pop = new PopupInscription(MainActivity.this);
                             pop.show();
                         }
                     })
-                    .setNegativeButton("non", new DialogInterface.OnClickListener() {
+                    .setNegativeButton("Non", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
                             return;
                         }
                     })
                     .show();
-        }setNomHeader(user);
+        }
+
+        setNomHeader(user);
         seance = new Seance();
 
         Intent i = getIntent();
